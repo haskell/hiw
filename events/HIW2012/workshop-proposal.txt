@@ -4,15 +4,16 @@
                  CONFERENCE ON FUNCTIONAL PROGRAMMING
 
                        SEPTEMBER 9 - 15, 2012
-                             COPENHAGEN, DENMARK
+                         Copenhagen, Denmark
 
                         WORKSHOP PROPOSAL FORM
 
     Note: for workshops that were affiliated with ICFP in 2011, a copy
     of last year's completed proposal form can be obtained for
-    reference, by emailing icfp11-workshops at mpi-sws.org.
+    reference, by emailing icfp12-workshops at cse.unsw.edu.au.
 
 ----------------------------------------------------------------------
+
 
 NAME OF THE WORKSHOP:
 
@@ -20,56 +21,56 @@ NAME OF THE WORKSHOP:
 
 GOALS OF THE WORKSHOP:
 
-  We propose to hold a workshop to bring together those involved in
-  implementing Haskell systems, infrastructure, libraries and tools.
-  The workshop does not have proceedings, rather it has talks
-  selected by a small program committee.  It is forum for those
-  involved in implementing Haskell technology to share their work and
-  discuss future directions and collaborations with others.
+   We propose to hold a workshop to bring together those involved in
+   implementing Haskell systems, infrastructure, libraries and tools.
+   The workshop does not have proceedings, rather it has talks
+   selected by a small program committee.  It is forum for those
+   involved in implementing Haskell technology to share their work and
+   discuss future directions and collaborations with others.
 
-  We intend the workshop to have an informal and interactive feel, with
-  a flexible timetable and plenty of room for ad-hoc discussion, demos,
-  and impromptu short talks.
+   We intend the workshop to have an informal and interactive feel, with
+   a flexible timetable and plenty of room for ad-hoc discussion, demos,
+   and impromptu short talks.
 
-  The workshop was held this year (2011) in conjunction with ICFP. We had
-  a solid program of 9x 30 min pre-scheduled talks and 6x lightning
-  talks that were signed up on the day. The number of lightning talks
-  indicates that the workshop is healthy, and we intend to convince those
-  community members likely to give lightning talks again next time to submit
-  proposals for full talks.
+   The workshop was held this year (2011) in conjunction with ICFP. We had
+   a solid program of 9x 30 min pre-scheduled talks and 6x lightning
+   talks that were signed up on the day. The number of lightning talks
+   indicates that the workshop is healthy, and we intend to convince those
+   community members likely to give lightning talks again next time to submit
+   proposals for full talks.
 
 Why is there a need for this workshop?
 
-  * The Haskell user community and language are growing rapidly.
-    Implementations are becoming increasingly complex.  There is an
-    acute need for a well supported tool chain for the deployment and
-    configuration of Haskell software.  This workshop gives the
-    language implementors and designers an opportunity to bat around
-    ideas, share experiences, and ask for feedback from fellow experts.
+   * The Haskell user community and language are growing rapidly.
+     Implementations are becoming increasingly complex.  There is an
+     acute need for a well supported tool chain for the deployment and
+     configuration of Haskell software.  This workshop gives the
+     language implementors and designers an opportunity to bat around
+     ideas, share experiences, and ask for feedback from fellow experts.
 
-  * The Haskell Workshop is now the Haskell Symposium, and as a result
-    is no longer suitable for work-in-progress or pure implementation
-    presentations. The focus of HIW is on those developers implementing
-    the Haskell ecosystem itself, rather than using Haskell for other ends.
+   * The Haskell Workshop is now the Haskell Symposium, and as a result
+     is no longer suitable for work-in-progress or pure implementation
+     presentations. The focus of HIW is on those developers implementing
+     the Haskell ecosystem itself, rather than using Haskell for other ends.
 
-  * ICFP is the one time in the year when most of those working on
-    Haskell infrastructure are together in the same place, so this is
-    the ideal time to hold the workshop.  Most of the potential
-    attendees will also want to attend the Haskell Symposium and ICFP.
+   * ICFP is the one time in the year when most of those working on
+     Haskell infrastructure are together in the same place, so this is
+     the ideal time to hold the workshop.  Most of the potential
+     attendees will also want to attend the Haskell Symposium and ICFP.
 
 The scope is as follows:
 
-  * Compilation techniques
-  * Language features and extensions
-  * Type system implementation
-  * Concurrency and parallelism: language design and implementation
-  * Performance, optimisation and benchmarking
-  * Virtual machines and run-time systems
-  * Libraries and Tools
+   * Compilation techniques
+   * Language features and extensions
+   * Type system implementation
+   * Concurrency and parallelism: language design and implementation
+   * Performance, optimisation and benchmarking
+   * Virtual machines and run-time systems
+   * Libraries and Tools
 
 
 ORGANIZERS OF THE WORKSHOP:
-   
+
    Name    : Johan Tibell
    Address : 2433 Polk St Apt 5
              San Francisco, CA 94109
@@ -89,18 +90,20 @@ ORGANIZERS OF THE WORKSHOP:
 
 NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
 
-    This is an ordered list of potential PC members. We aim to select
-    four plus the two organisers to make a PC of six in total.
-    
-    Andres Loh,             Well Typed LLP, UK
-    Andrew Farmer,          University of Kansas, USA
-    Oleg Lobachev,          University of Marburg, Germany
-    Dimitrios Vytiniotis,   Microsoft Research, UK
-    Trevor Elloit,          Galois, USA
-    Tim Chevalier           Portland State University, USA
-    Max Bolingbroke,        University of Cambridge, UK
-    Johan Tibell,           Google, Switzerland
-   
+   This is an ordered list of potential PC members. We aim to select
+   four plus the two organisers to make a PC of six in total.
+
+   Andres Loh,             Well Typed LLP, UK
+   Andrew Farmer,          University of Kansas, USA
+   Oleg Lobachev,          University of Marburg, Germany
+   Dimitrios Vytiniotis,   Microsoft Research, UK
+   Trevor Elloit,          Galois, USA
+   Tim Chevalier           Portland State University, USA
+   Max Bolingbroke,        University of Cambridge, UK
+
+   Organizer affiliations:
+   Johan Tibell,           Google, USA
+   Gregory Collins,        Google, Switzerland
 
 PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 
@@ -124,27 +127,27 @@ PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 
 EXPECTED NUMBER OF ATTENDEES:
 
-  It's harder to judge this time because neither ICFP or HIW have been
-  held in Asia before. We expect the core group of academics who attend
-  both ICFP and HIW regularly to also attend this year. The number of 
-  student attendees is harder to judge as some will be paying their
-  own way.
+   It's harder to judge this time because neither ICFP or HIW have been
+   held in Asia before. We expect the core group of academics who attend
+   both ICFP and HIW regularly to also attend this year. The number of
+   student attendees is harder to judge as some will be paying their
+   own way.
 
-  The breakdown of attendees for HIW 2010 was as follows:
+   The breakdown of attendees for HIW 2010 was as follows:
 
-      Early Registration
-       10 ACM/SIG Member
-       10 non Member
-       14 student
-       1  complementary
+       Early Registration
+        10 ACM/SIG Member
+        10 non Member
+        14 student
+        1  complementary
 
-      Late Registration
-       5  ACM/SIG Member
-       1  non Member
-       1  student  
+       Late Registration
+        5  ACM/SIG Member
+        1  non Member
+        1  student
 
-  Based on this and the trend of the previous two workshops we'd 
-  expect the numbers of attendees to be 35-45.
+   Based on this and the trend of the previous workshops we'd
+   expect the numbers of attendees to be 35-45.
 
 
 PLANNED LENGTH OF THE WORKSHOP:   1 day
@@ -171,9 +174,9 @@ PREVIOUS VERSIONS OF THE WORKSHOP:
    Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2011
    Number of submissions     : 11
    Number of accepted papers : 9x 30 min pre-scheduled talks + 6x lightning talks scheduled on the day.
-   Number of attendees       : 
-   Registration fee          : 
-   Budget information        : 
+   Number of attendees       :
+   Registration fee          :
+   Budget information        :
 
 
    Name                      : Haskell Implementors Workshop (HIW2010)
@@ -212,14 +215,21 @@ WORKSHOP WEBSITE:
    http://haskell.org/haskellwiki/HaskellImplementorsWorkshop
 
 
+VIDEO RECORDING:
+
+   Yes. The workshop was recorded previous years and the videos were well
+   received by the larger Haskell community.  Every year, after the program is
+   posted online, there have been requests by people who cannot attend to have
+   the talks taped.
+
 ADDITIONAL INFORMATION:
 
    Should not run in parallel with the Haskell Symposium, as most
-   attendees will want to go to both. Can run in parallel with 
-   CUFP tutorials as these are aimed at users of FP which are 
-   largely disjoint from the set of implementors. 
+   attendees will want to go to both. Can run in parallel with
+   CUFP tutorials as these are aimed at users of FP which are
+   largely disjoint from the set of implementors.
 
-   At ICFP 2011 the scope of events progressed from "academic/theory" 
+   At ICFP 2011 the scope of events progressed from "academic/theory"
    though to "engineering/practice" over the course of the week, with
    HIW on the second last day running concurrently with CUFP Tutorials.
    This seemed like a good fit.
@@ -228,12 +238,12 @@ ADDITIONAL INFORMATION:
 SUBMISSION INFORMATION:
 
    The deadline for workshop proposals is NOVEMBER 19, 2011,
-   and the completed form should be emailed to the ICFP 2011
-   workshop co-chairs (Gabriele Keller and Derek Dreyer),
-   via email to icfp11-workshops at mpi-sws.org.
+   and the completed form should be emailed to the ICFP 2012
+   workshop co-chairs (Patrik Jansson and Gabriele Keller),
+   via email to icfp12-workshops at cse.unsw.edu.au.
 
    Authors of workshop proposals will be notified of acceptance
-   or rejection by DECEMBER 17, 2012.
+   or rejection by DECEMBER 17, 2011.
 
    PLEASE NOTE:
    Organizers should await SIGPLAN approval of the included program
