@@ -1,0 +1,196 @@
+----------------------------------------------------------------------
+
+            ICFP 2010, THE 15TH ACM SIGPLAN INTERNATIONAL
+                 CONFERENCE ON FUNCTIONAL PROGRAMMING
+
+                       SEPTEMBER 27 - 29, 2010
+                         BALTIMORE, MARYLAND
+
+                        WORKSHOP PROPOSAL FORM
+
+    Note: for workshops that were affiliated with ICFP in 2009, a copy
+    of last year's completed proposal form can be obtained for
+    reference, by emailing icfp10-workshops at mpi-sws.org.
+
+----------------------------------------------------------------------
+
+
+NAME OF THE WORKSHOP: Haskell Implementors' Workshop
+
+
+GOALS OF THE WORKSHOP:
+
+We propose to hold a workshop to bring together those involved in
+implementing Haskell systems, infrastructure, libraries and tools.
+The workshop does not have proceedings, rather it has talks
+selected by a small program committee.  It is forum for those
+involved in implementing Haskell technology to share their work and
+discuss future directions and collaborations with others.
+
+We intend the workshop to have an informal and interactive feel, with
+a flexible timetable and plenty of room for ad-hoc discussion, demos,
+and impromptu short talks.
+
+The workshop was first held in this format last year (affiliated with
+ICFP 2009). It did achieve these goals of good audience interaction
+and we managed to schedule several ad-hoc short presentations. It was
+well attended, attracting well over the expected number of
+registrations.
+
+Why is there a need for this workshop?
+
+  * The Haskell user community and language are growing rapidly.
+    Implementations are becoming increasingly complex.  There is an
+    acute need for a well supported tool chain for the deployment and
+    configuration of Haskell software.  This workshop gives the
+    language implementors and designers an opportunity to bat around
+    ideas, share experiences, and ask for feedback from fellow experts.
+
+  * The Haskell Workshop is now the Haskell Symposium, and as a result
+    is no longer suitable for work-in-progress or pure implementation
+    presentations.
+
+  * ICFP is the one time in the year when most of those working on
+    Haskell infrastructure are together in the same place, so this is
+    the ideal time to hold the workshop.  Most of the potential
+    attendees will also want to attend the Haskell Symposium and ICFP.
+
+  * The focus is clearly on those developers involved with implementing
+    the Haskell ecosystem itself, rather than using Haskell for other
+    ends, so in this sense it does not overlap with DEFUN.
+
+The scope is as follows:
+
+  * Compilation techniques
+  * Language features and extensions
+  * Type system implementation
+  * Concurrency and parallelism: language design and implementation
+  * Performance, optimisation and benchmarking
+  * Virtual machines and run-time systems
+  * Libraries and Tools
+
+
+ORGANIZERS OF THE WORKSHOP:
+
+   Name    : Simon Marlow
+   Address : Microsoft Research Ltd.,
+             7 J J Thomson Avenue
+             Cambridge
+             CB3 0FB
+             United Kingdom
+   Email   : simonmar@microsoft.com
+   Phone   : +44 1223 479847
+   Mobile  : +44 7733366798
+
+   Name    : Duncan Coutts
+   Address : Flat 4
+             1 Cromwell Close
+             Oxford
+             OX3 0FB
+             United Kingdom
+   Email   : duncan@haskell.org
+   Phone   : +44 1865 794806
+   Mobile  : +44 7913261613
+
+   Note that we did organise the first incarnation of workshop last year,
+   however we intend to hand it over to new organisers next year.
+
+
+NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
+
+   We list six potential PC members below. We aim to select four
+   plus the two organisers to make a PC of six in total.
+
+   Jean-Philippe Bernardy,	Chalmers University
+   Iavor Diatchki,		Galois, Inc.
+   Ben Lippmeier,		Australian National University
+   Neil Mitchell,		Standard Chartered Bank
+   Malcolm Wallace,		University of York
+   Dimitrios Vytiniotis,	Microsoft Research
+
+   Organisers affiliations:
+   Duncan Coutts,		Well-Typed LLP
+   Simon Marlow,		Microsoft Research
+
+
+PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
+
+   There will be a CFP asking for potential speakers to submit a talk
+   abstract, of similar length to a paper abstract, optionally with
+   pointers to supporting materials.  The PC will also invite a
+   number of speakers.  There will be a short online PC meeting to
+   make the final programme selection.
+
+   Calls for participation will be made in the usual way, using
+   mailing lists, blogs, newsgroups and so on.
+
+   Rough timeline:
+    * CFP in May;
+
+    * deadline for submissions mid-July (slightly after the author
+      notification date for the Haskell Symposium);
+
+    * PC meeting shortly after the submission deadline.
+
+
+EXPECTED NUMBER OF ATTENDEES: approximately 60 
+
+  When the workshop was first held in 2009 it attracted 51 registrations
+  in advance, plus an unknown number of on-site registrations.
+
+
+PLANNED LENGTH OF THE WORKSHOP: 1 day
+
+
+PLANS FOR PUBLICITY:
+
+   Haskell mailing lists, blogs, newsgroups, web site, personal
+   invitations.
+
+
+PLANS FOR A PUBLISHED PROCEEDINGS:
+
+   No proceedings.  Talk videos and slides published online with
+   consent from speakers.
+
+
+PREVIOUS VERSIONS OF THE WORKSHOP:
+
+   Name                      : Haskell Implementers' Workshop
+   Dates                     : September 5th 2009
+   Location                  : Edinburgh, UK
+   Organizers                : Simon Marlow, Duncan Coutts
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop
+   Number of submissions     : 16 talk proposals
+   Number of accepted papers : 11 talks
+   Number of attendees       : 51 (not including on-site registrations)
+   Registration fee          : $125 ACM, $150 non-ACM, $75 student,
+                               late registrants paid $150/$180/$90
+   Budget information        : $95 per participant,
+                               plus 16% overhead going to ACM,
+                               plus a contingency buffer (15% of direct costs)
+
+   Name                      : Haskell Implementor's Meeting
+   Dates                     : January 2002
+   Location                  : Portland, Oregon
+   Organisers                : (unknown)
+   Website                   : none
+   Number of submissions     : (informal meeting, no proceedings)
+   Number of accepted papers : (informal meeting, no proceedings)
+   Number of attendees       : about 20
+   Registration fee          : unknown
+   Budget information        : unknown
+
+
+WORKSHOP WEBSITE:
+
+   http://haskell.org/haskellwiki/HaskellImplementorsWorkshop
+
+
+ADDITIONAL INFORMATION:
+
+   Should not run in parallel with the Haskell Symposium (most
+   attendees will want to go to both), but can run in parallel with
+   DEFUN (DEFUN is aimed primarily at users of FP, which is largely
+   disjoint from the set of implementors).
+

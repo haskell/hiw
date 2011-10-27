@@ -1,0 +1,101 @@
+\documentclass{article}[10pt]
+\usepackage{fancyhdr}
+\usepackage[left=35mm,right=35mm,top=20mm,bottom=20mm]{geometry}
+
+\newcommand{\conferenceName}{Haskell Implementors' Workshop 2010}
+
+\newenvironment{tightItemize}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}}{\end{itemize}
+}
+\pagestyle{fancy}
+\newcommand{\programDate}[1]{\newpage\subsection*{#1}}
+\newcommand{\session}[1]{\subsubsection*{#1}}
+\fancyhead[C]{\conferenceName}
+\fancyfoot{}
+
+\begin{document}
+
+%%% START EXAMPLE PROGRAM
+          \programDate{Friday October 1}
+
+          \session{Session 1}
+
+          \begin{tightItemize}
+            \item[9:00] \textit{Hackage, Cabal and the Haskell Platform: The Second Year}
+
+            Don Stewart and Duncan Coutts
+
+            \item[9:30] \textit{Hackage 2.0: Serving Packages Better}
+              
+            Matthew Gruen
+
+            \item[10:00] \textit{Break}
+          \end{tightItemize}
+
+          \session{Session 2}
+
+          \begin{tightItemize}
+             \item[10:30] \textit{Shake: A Better Make}
+
+             Neil Mitchell
+           
+             \item[11:00] \textit{Improving Cabal's Test Support}
+
+             Thomas Tuegel
+           
+             \item[11:30] \textit{Revamping Haddock Output}
+
+             Mark Lentczner
+           
+             \item[12:00] \textit{First short-talks session}
+           
+             \item[12:30] \textit{Lunch break}
+          \end{tightItemize}
+
+          \session{Session 3}
+
+          \begin{tightItemize}
+            \item[2:00] \textit{Typed type-level functional
+              programming in GHC}
+
+              Brent Yorgey
+
+            \item[2:30] \textit{Second short-talks session}
+              
+            \item[3:00] \textit{Break}
+          \end{tightItemize}
+
+          \session{Session 4}
+
+          \begin{tightItemize}
+            \item[15:30]\textit{Fibon -- a new benchmark suite for Haskell}
+
+              David Peixotto
+            
+            \item[16:00]\textit{Kansas Lava}
+
+              Andrew Farmer
+
+            \item[16:30] \textit{Break}
+          \end{tightItemize}
+
+          \session{Session 5}
+
+          \begin{tightItemize}
+            \item[17:00]\textit{Scheduling Lazy Evaluation on Multicore}
+
+              Simon Marlow
+
+            \item[17:30]\textit{Discussion: ``Beyond Haskell''}
+
+              Chair: Ben Lippmeier
+
+            \item[18:00]\textit{Finish}
+          \end{tightItemize}
+
+%%%END EXAMPLE PROGRAM
+\end{document}
+        

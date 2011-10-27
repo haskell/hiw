@@ -1,0 +1,34 @@
+
+Organisers
+	Duncan Coutts - co-chair (Well-Typed LLP)
+	Atze Dijkstra (Utrecht University)
+	Roman Leshchinskiy (University of New South Wales)
+	Simon Marlow - co-chair (Microsoft Research)
+	Bryan O'Sullivan (Linden Lab)
+	Wouter Swierstra (Chalmers University of Technology)
+
+9.00 : Start
+	GHC Status Update (Simon Peyton Jones)
+	A more flexible code generator for GHC (John Dias)
+
+10.00 - 10.30 : Tea/coffee
+
+	Haskell Types with Added Value (Conor McBride)
+	Towards a Lightweight, Safety-preserving Haskell Compiler (Tim Chevalier)
+	Stack tracing in Haskell (Bernie Pope)
+
+12.00 - 13.30 : Lunch
+
+	Haskell for Everyone: Hackage and the Haskell Platform (Don Stewart & Duncan Coutts)
+	My Dream GHC Environment: A Few Things We Do Right, and Many We Do Wrong (Curt Sampson)
+	Discussion: Haskell building and packaging (including an update on Cabal and cabal-install from Duncan Coutts)
+
+15.00 - 15.30 : Tea/coffee
+
+	GHC on the OpenSPARC T2 (Ben Lippmeier)
+	A wander through GHC's new IO Library (Simon Marlow)
+
+16.30 - 16.45 : short break
+
+	Implementing Data Parallel Haskell (Roman Leshchinskiy)
+	Running Haskell Array Computations on a GPU (Manuel M T Chakravarty)

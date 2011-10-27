@@ -1,0 +1,72 @@
+
+        CALL FOR WORKSHOP AND CO-LOCATED EVENT PROPOSALS
+                            ICFP 2011
+16th ACM SIGPLAN International Conference on Functional Programming
+                     September 19 - 21, 2011
+                          Tokyo, Japan
+              http://www.icfpconference.org/icfp2011
+
+The 16th ACM SIGPLAN International Conference on Functional
+Programming will be held in Tokyo, Japan on September 19-21,
+2011.  ICFP provides a forum for researchers and developers to hear
+about the latest work on the design, implementations, principles, and
+uses of functional programming.
+
+Proposals are invited for workshops (and other co-located events, such
+as tutorials) to be affiliated with ICFP 2011 and sponsored by
+SIGPLAN.  These events should be more informal and focused than ICFP
+itself, include sessions that enable interaction among the attendees,
+and be fairly low-cost.  The preference is for one-day events, but
+other schedules can also be considered.
+
+NEW THIS YEAR: The workshops are scheduled to occur on September 18
+(the day before ICFP) and September 22-24 (the three days after ICFP).
+
+----------------------------------------------------------------------
+
+Submission details
+Deadline for submission:     November 19, 2010
+Notification of acceptance:  December 17, 2010
+
+Prospective organizers of workshops or other co-located events are
+invited to submit a completed workshop proposal form in plain text
+format to the ICFP 2011 workshop co-chairs (Gabriele Keller and Derek
+Dreyer), via email to icfp11-workshops at mpi-sws.org by November 19,
+2010.  (For proposals of co-located events other than workshops,
+please fill in the workshop proposal form and just leave blank any
+sections that do not apply.)  Please note that this is a firm
+deadline.
+
+Organizers will be notified if their event proposal is accepted by
+December 17, 2010, and if successful, depending on the event, they
+will be asked to produce a final report after the event has taken
+place that is suitable for publication in SIGPLAN Notices.
+
+The proposal form is available at:
+
+http://www.icfpconference.org/icfp2011/icfp11-workshops-form.txt
+
+Further information about SIGPLAN sponsorship is available at:
+
+http://acm.org/sigplan/sigplan_workshop_proposal.htm
+
+----------------------------------------------------------------------
+
+Selection committee
+
+The proposals will be evaluated by a committee comprising the
+following members of the ICFP 2010 organizing committee, together with
+the members of the SIGPLAN executive committee.
+
+Workshop Co-Chair: Gabriele Keller (University of New South Wales)
+Workshop Co-Chair: Derek Dreyer (MPI-SWS)
+General Co-Chair:  Manuel Chakravarty (University of New South Wales)
+General Co-Chair:  Zhenjiang Hu (National Institute of Informatics)
+Program Chair:     Olivier Danvy (Aarhus University)
+
+----------------------------------------------------------------------
+
+Further information
+
+Any queries should be addressed to the workshop co-chairs (Gabriele
+Keller and Derek Dreyer), via email to icfp11-workshops at mpi-sws.org.

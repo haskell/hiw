@@ -1,0 +1,121 @@
+\documentclass{article}[10pt]
+\usepackage{fancyhdr}
+\usepackage[left=35mm,right=35mm,top=20mm,bottom=20mm]{geometry}
+
+%%% TODO: CHANGE THIS TO THE RELEVANT EVENT
+\newcommand{\conferenceName}{MY EVENT 2010}
+%%% END TODO
+
+\newenvironment{tightItemize}{
+\begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}}{\end{itemize}
+}
+\pagestyle{fancy}
+\newcommand{\programDate}[1]{\newpage\subsection*{#1}}
+\newcommand{\session}[1]{\subsubsection*{#1}}
+\fancyhead[C]{\conferenceName}
+\fancyfoot{}
+
+\begin{document}
+
+%%% START EXAMPLE PROGRAM
+          \programDate{Monday September 27}
+
+          \session{Invited Talk (chair: Peter Dybjer)}
+
+          \begin{tightItemize}
+            \item[9:00] \textit{ML: Metalanguage or Object Language?}
+
+            Mike Gordon 
+
+            \item[10:00] \textit{Break}
+          \end{tightItemize}
+
+          \session{Session 1 (chair: Andres L\"oh)}
+
+          \begin{tightItemize}
+            \item[10:30] \textit{The Gentle Art of Levitation}
+
+            Pierre-Evariste Dagand; Conor McBride; James Chapman; Peter Morris
+
+            \item[10:55]\textit{Functional Pearl: Every Bit Counts}
+
+            Dimitrios Vytiniotis; Andrew Kennedy 
+
+            \item[11:20]\textit{Break}
+          \end{tightItemize}
+
+          \session{Session 2 (chair: Olivier Danvy)}
+
+          \begin{tightItemize}
+            \item[11:50]\textit{ReCaml: Execution State as the
+            Cornerstone of Reconfigurations}
+
+            J\'er\'emy Buisson; Fabien Dagnat
+
+            \item[12:15]\textit{Lolliproc: to Concurrency from Classical
+            Linear Logic via Curry-Howard and Control}
+
+            Karl Mazurak; Steve Zdancewic 
+
+            \item[12:40]\textit{Lunch break}
+          \end{tightItemize}
+
+          \session{Session 3 (chair: Fritz Henglein)}
+
+          \begin{tightItemize}
+            \item[14:00]\textit{Abstracting Abstract Machines}
+
+            David Van Horn; Matthew Might 
+
+            \item[14:25]\textit{Polyvariant Flow Analysis with
+            Higher-ranked Polymorphic Types and Higher-order Effect
+            Operators}
+
+            Stefan Holdermans; Jurriaan Hage
+            
+
+            \item[14:50]\textit{Break}
+          \end{tightItemize}
+
+          \session{Session 4 (chair: Simon Peyton Jones)}
+
+          \begin{tightItemize}
+            \item[15:20]\textit{The Reduceron Reconfigured}
+
+            Matthew Naylor; Colin Runciman
+            
+            \item[15:45]\textit{Experience Report: Using Functional
+            Programming within an Industrial Product Group:
+            Perspectives and Perceptions}
+
+            David Scott; Richard Sharp; Thomas Gazagnaire; Anil Madhavapeddy 
+            
+            \item[16:05]\textit{Lazy Tree Splitting}
+
+            Lars Bergstrom; Matthew Fluet; Michael Rainey; John Reppy; Adam Shaw
+
+            \item[16:30]\textit{Break}
+          \end{tightItemize}
+
+          \session{Session 5 (chair: Peter Thiemann)}
+
+          \begin{tightItemize}
+            \item[17:00]\textit{Semantic Subtyping with an SMT Solver}
+
+          Gavin Bierman; Andrew Gordon; Catalin Hritcu; David Langworthy
+
+            \item[17:25]\textit{Logical Types for Untyped Languages}
+
+            Sam Tobin-Hochstadt; Matthias Felleisen 
+
+            \item[17:50]\textit{PC chair's report}
+
+            \item[18:15]\textit{Finish}
+          \end{tightItemize}
+
+%%%END EXAMPLE PROGRAM
+\end{document}
+        

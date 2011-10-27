@@ -1,0 +1,65 @@
+
+Dates
+	Friday 6 Aug: Submissions due
+	Monday 23 Aug: Notification
+	Friday 1 Oct: Workshop
+
+Organisers
+	Jean-Philippe Bernardy (Chalmers University of Technology)
+	Duncan Coutts - co-chair (Well-Typed LLP)
+	Iavor Diatchki (Galois)
+	Simon Marlow - co-chair (Microsoft Research)
+	Ben Lippmeier (University of New South Wales)
+	Neil Mitchell (Standard Chartered)
+
+
+8:00 - 8:45 Breakfast
+
+9:00 - 10:00 Session 1
+
+	Hackage, Cabal and the Haskell Platform: The Second Year (Don Stewart and Duncan Coutts)
+	Hackage 2.0: Serving Packages Better (Matthew Gruen)
+
+10:00 - 10:30 Break
+
+10:30 - 12:30 Session 2
+
+	Shake: A Better Make (Neil Mitchell)
+	Improving Cabal's Test Support (Thomas Tuegel)
+	Revamping Haddock Output (Mark Lentczner)
+
+  	First short-talks session: 10-minute(ish) talks/demos, sign up on the day
+	  GHC Status - Simon Peyton Jones Slides
+	  UHC Status - Atze Dijkstra Slides
+
+12:30 - 2:00 Lunch
+
+ 2:00 - 3:00 Session 3
+
+	Typed type-level functional programming in GHC (Brent Yorgey)
+
+	Second short-talks session: 10-minute(ish) talks/demos, sign up on the day
+	  DDC peekOn/pokeOn (Ben Lippmeier)
+	  Scrap your zippers (Michael Adams)
+	  Parallel CASHflow (Kevin Hammond)
+	  Eden - a parallel Haskell (Oleg Lobachev)
+	  Performance visualization for multicore Haskell (Peter Wortmann)
+	  pandoc + lhs2TeX for literate programming (Tillmann Rendel)
+
+3:00 - 3:30 Break
+
+3:30 - 4:30 Session 4
+
+	Fibon -- a new benchmark suite for Haskell (David Peixotto)
+	Kansas Lava -- Using and Abusing GHC's Type Extensions (Andrew Farmer)
+
+4:30 - 5:00 Break
+
+5:00 - 6:00 Session 5
+
+	Scheduling Lazy Evaluation on Multicore (Simon Marlow)
+	Beyond Haskell discussion, chaired by Ben Lippmeier
+
+
+
+

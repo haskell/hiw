@@ -1,0 +1,47 @@
+Important Dates
+~~~~~~~~~~~~~~~
+Friday 22nd July: Proposal Deadline
+Monday 8th August: Notification
+Friday 23rd September: Workshop
+
+Programme
+~~~~~~~~~
+
+9:00-10:00 Session 1
+Improving the GHC Inliner: Smart Loop Breaker Choice (Bas den Heijer)
+Faster persistent data structures through hashing (Johan Tibell)
+
+10:00-10:30: Tea Break
+
+10:30-12:00: Session 2
+Spark Visualization in ThreadScope (Duncan Coutts)
+Weaving Source Code into ThreadScope (Peter Wortmann)
+First Lightning Talks Session
+
+12:00-13:30: Lunch Break
+
+13:30-15:00: Session 3
+GHC Status Update (Simon Peyton Jones and Simon Marlow)
+Reusing Thunks for Recursive Data Structures in Lazy Functional Programs (Yasunao TAKANO)
+Second Lightning Talks Session
+
+15:00-15:30: Tea Break
+
+15:30-16:30 Session 4
+Virtualizing Real-World Objects in Functional Reactive Programming (Daniel Winograd-Cort)
+A New Dependency Solver for cabal-install (Andres Löh)
+
+16:30-16:45: Short Break
+
+16:45-17:45: Session 5
+Safe Haskell (David Terei)
+Third Lightning Talks Session and Beyond Haskell Discussion
+
+Organisers
+~~~~~~~~~~~
+Rebekah Leslie           (Portland State University)
+Ben Lippmeier - co-chair (University of New South Wales)
+Andres Löh               (Well-Typed LLP)
+Oleg Lobachev            (University of Marburg)
+Neil Mitchell - co-chair (Standard Chartered)
+Dimitrios Vytiniotis     (Microsoft Research)

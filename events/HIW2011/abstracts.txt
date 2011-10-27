@@ -1,0 +1,126 @@
+
+
+Andres Loeh (speaker), Duncan Coutts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A new dependency solver for cabal-install
+
+Many of the most common sources of frustration and complaints about Haskell's packaging system have as their root cause limitations in the dependency solver in cabal-install.
+
+To address some of these problems we have implemented a new dependency resolution algorithm with the following goals:
+
+ * to find solutions in more cases (by using backtracking),
+ * to produce better error messages,
+ * to be able to deal with private dependencies of packages,
+ * to be more configurable for the end user,
+ * to treat flags in a more uniform way,
+ * to be easier to extend or experiment with,
+ * to be faster, or at least not slower, than the old solver.
+
+We explain the architecture of the new solver, which is inspired by Nordin and Tolmach's 2001 paper ``Modular Lazy Search for Constraint Satisfaction Problems''. We also point out the rather subtle issues one has to solve in order to achieve all of the above goals.
+
+The reimplementation of the solver is an ongoing effort, but ready for testing at
+
+  http://darcs.haskell.org/cabal-branches/cabal-modular-solver/
+
+We hope to also spark discussion on what features are on the "Most Wanted" list for Cabal dependency resolution.
+
+
+Duncan Coutts (speaker), Mikolaj Konarski, Andres Loeh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Spark visualization in ThreadScope
+
+ThreadScope is a powerful debugging tool for parallel Haskell programs. It reads GHC-generated event logs and displays them in a user-friendly form, showing the phases of (in)activity per CPU as well as garbage collections.
+
+However, a significant amount of experience and knowledge about the GHC internals is required to successfully read the output of ThreadScope, and some information is simply lacking.
+
+We have extended GHC to generate events that sample the size of the spark pool and deliver stats about spark creation and conversion. In ThreadScope, we can display these statistics visually. This helps significantly in debugging some common problems such as generating too many sparks at once (causing overflow), or too few sparks, or sparks of the wrong size.
+
+The presentation will include a demo, inspired by a program we are working on for the Parallel GHC Project.
+
+We are also working on additional visualizations (such as spark lifetime). We are interested in community feedback about other interesting visualizations to implement in ThreadScope, so there is plenty of potential for discussion.
+
+
+Simon Peyton Jones, Simon Marlow
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+For the Haskell Implementers workshop, Simon and I would be happy to do a GHC update.¬† There is a *lot* of new stuff in GHC 7.2 which will be out by then.¬† Safe Haskell, equality superclasses, better parallel stuff, plugins, DPH...
+If you need more detail, happy to supply
+
+
+Yasunao TAKANO, Hideya IWASAKI, Tomoharu UGAWA
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Reusing Thunks for Recursive Data Structures in Lazy Functional Programs
+
+Lazy evaluation helps programmers write clear programs. However, it has significant run-time overheads for building many as-yet unevaluated expressions, or thunks. Because thunk allocation is a time- and space-consuming task, it is important to reduce the number of thunks in order to improve the performance of a lazy functional program. We propose static analysis algorithms that achieve the thunk reuse technique. Thunk generation is suppressed by reusing and updating an already allocated thunk at the tail of a list, on the condition that the thunk is singly referred, i.e., pointed to only from the tail field of a cons cell. This method guarantees that reused thunks definitely satisfy this singly referred condition on the basis of a static analysis with program transformations. We are implementing our method in the Glasgow Haskell Compiler by modifying the code generation and the runtime system. In this workshop, we will talk about the current status of our implementation and the results of some benchmarks.
+
+
+David Terei
+~~~~~~~~~~~~~~~
+Safe Haskell
+
+Safe Haskell is a new extension to the Haskell language that is implemented in GHC as of version 7.2. It allows for unsafe code to be securely included into a trusted code base by restricting what features of GHC Haskell code is allowed to access. Put simply, it makes the types of programs trust-able. Safe Haskell itself is aimed to be as minimal as possible to encourage broad adoption by the Haskell community. It provides strong enough guarantees about compiled Haskell code for more advance secure systems to be built on top of Haskell, using techniques such as information flow control security or encrypted computations. These techniques combined with Safe Haskell make Haskell a great language for building reliable, secure multi-party systems today. Particularly relevant with the growing power of web applications and the platform nature of many web sites.
+
+http://hackage.haskell.org/trac/ghc/wiki/SafeHaskell
+
+This is work in collaboration with David Mazi√®res, Simon Marlow and Simon Peyton Jones.
+
+
+Johan Tibell
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hash Array Mapped Tries in GHC
+
+The most commonly used map (dictionary) data types in Haskell are implemented using some kind of binary tree, typically a size balanced tree or a Patricia tree. While binary trees provide good asymptotic performance, their real world performance is not stellar, especially when used with keys which are expensive to compare, such as strings.
+
+In this talk I will describe a new map data type that uses a recently developed data structure, a hash array mapped trie, to achieve better real world performance. I will describe the design and implementation of this new data structure, improvements made to GHC to improve its performance, benchmark results, and finally conclude with a discussion on compiler improvements that could further improve the performance of this data type.
+
+I've given a version of this talk before at Galois, but I've made some progress since: at the Galois talk I described that while HAMTs have great lookup performance, there insert performance wasn't the greatest (slightly slower than Data.Map). I've now addressed this problem and my HAMT implementation is not only faster than Data.Map but also faster than Data.IntMap, the main contender for insert performance. The lookup performance is still 3x better than Data.IntMap.
+
+I also plan to spend a few minutes talking about ideas on how we could improve unboxing/memory representation in GHC to better support this kind of data structures.
+
+
+Daniel Winograd-Cort
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Virtualizing Real-World Objects in FRP
+
+We begin with a functional reactive programming (FRP) model in which every program is viewed as a signal function that converts a stream of input values into a stream of output values.  We observe that objects in the real world -- such as a keyboard or sound card -- can be thought of as signal functions as well.  This leads us to a different approach to I/O -- instead of treating real-world objects as being external to the program, we expand the sphere of influence of program execution to include them.  We call this "virtualizing real-world objects," and we explore how even virtual objects, such as GUI widgets, and non-local effects, such as are needed for debugging and random number generation, can be handled in the same way.
+
+Our methodology may at first seem naive -- one may ask how we prevent a virtualized device from being copied, thus potentially introducing non-determinism as one part of a program competes for the same resource as another.  To solve this problem, we introduce the idea of a resource type that assures that a virtualized object is not duplicated and that I/O and non-local effects are safe.  Resource types also provide a deeper level of transparency: by inspecting the type, one can see exactly what resources are being used.  We use arrows, type classes, associated types, and type families to implement our ideas in Haskell, and the result is a safe, effective, and transparent approach to stream-based I/O.
+
+
+Peter Wortmann
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Weaving Source Code into ThreadScope
+
+The task of program optimisation is frustratingly hard, with many possible problem sources to consider. Consequently, good profiling tools are essential for observing program behaviour and helping the programmer to spot the patterns and underlying reasons.
+
+The ThreadScope profiling utility has already proved invaluable in this task. However, so far it has mainly tracked performance characteristics, with little help for relating them back to the program in question. Our aim is to improve this situation by allowing the user to relate the observed behaviour to locations in the application's source code.
+
+We have extended the GHC tool chain accordingly and are now able to give quick and accurate program profiles, complete with source code references. Our talk will give an overview of the new functionality and its implementation. We will talk about:
+
+- The profiling back-end, which allows sampling code pointers according to different performance characteristics,
+
+- How we manage to retain code associations throughout the various code generation stages of GHC,
+
+- And the user interface we have designed to make the generated profiling data accessible to the user.
+
+We might share our slot with a speaker talking about other extensions of ThreadScope.
+
+
+Bas den Heijer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Improving the GHC inliner: Smart loop breaker choice
+
+Inlining recursive functions can be tricky business: the inliner should take care not go in an infinite loop inlining the same functions again and again. The GHC inliner deals with this problem by marking some functions as ‚Äúloop breakers‚Äù, which may never be inlined. Obviously there needs to be at least one loop breaker on each cycle of function calls, but we‚Äôd like to have as few loop breakers as possible. GHC currently uses a simple heuristic to choose breakers and makes little effort to be smart about it (breaking multiple cycles with one breaker is smart). The problem of finding the smallest set of breakers that would break all recursion cycles in a nest of functions is actually almost equivalent to the Directed Feedback Vertex Set problem, which is well studied. For my master‚Äôs thesis I‚Äôve built an algorithm that can find such a minimum set. Doing this for the real-nofib benchmark program takes about 2 seconds (compiling the programs with the current compiler with -01 takes 59 seconds on the same computer.) A crude implementation in GHC 7.0.2 seem to yield a runtime decrease of about 1.5% in the nofib benchmark suite, without increasing binary sizes noticeably.
+
+
+Ben Lippmeier
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Vectorisation without Replication
+
+The Data Parallel Haskell (DPH) project is based on a code transform called vectorisation. This transform takes a source program that may use nested parallelism, and converts it to one that only uses flat parallelism. With nested parallelism, each parallel computation may spawn further parallel computations, whereas with flat parallelism they cannot. Vectorisation is important because the resulting program can be mapped onto SIMD style parallel hardware in a way that admits simple load balancing strategies.
+
+However, while working on DPH we have identified several programs in which the vectorised version uses exponentially more time and space compared with the source. Although vectorisation has been implemented in earlier languages such as NESL (Blelloch et al), these implementations were only guaranteed to preserve the parallel *depth* complexity of the source program, and not the work complexity as well. Sadly, as the machines we can afford today only have a finite number of processors, this issue must be solved before vectorisation (and DPH) can be considered a truly general purpose technology.
+
+Happily, we have identified the crux of the problem and have a partially working solution that also preserves work complexity. The heart of the problem lies in the interaction between indexing operations from the source program and replication operations introduced by the vectoriser. While replication creates an array without adding information, indexing consumes one without inspecting all the elements. Indexing into an array created by replication should be O(1), but vectorisation makes this operation O(n). The exponential blowup then occurs in recursive programs, where a new O(n) factor is introduced by each recursive call.
+
+In this talk I'll outline the problem in detail and show examples of programs that expose it. I'll also present our solution, and compare the performance and implementation complexity of programs using the old and new approach. We have it working for standard benchmarks such as sparse matrix-vector multiplication, and are currently scaling up to our full test-suite.
+
