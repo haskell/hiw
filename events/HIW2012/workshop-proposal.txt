@@ -93,17 +93,14 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
    This is an ordered list of potential PC members. We aim to select
    four plus the two organisers to make a PC of six in total.
 
-   Andres Loh,             Well Typed LLP, UK
-   Andrew Farmer,          University of Kansas, USA
-   Oleg Lobachev,          University of Marburg, Germany
-   Dimitrios Vytiniotis,   Microsoft Research, UK
-   Trevor Elloit,          Galois, USA
-   Tim Chevalier           Portland State University, USA
-   Max Bolingbroke,        University of Cambridge, UK
+   Simon Marlow,            Microsoft Research, UK
+   Atze Dijkstra,           Utrecht University, Netherlands
+   Manuel M T Chakravarty,  University of New South Wales, Australia
+   David Terei,             Stanford, USA
 
    Organizer affiliations:
-   Johan Tibell,           Google, USA
-   Gregory Collins,        Google, Switzerland
+   Johan Tibell,            Google, USA
+   Gregory Collins,         Google, Switzerland
 
 PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 
@@ -127,11 +124,6 @@ PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 
 EXPECTED NUMBER OF ATTENDEES:
 
-   It's harder to judge this time because neither ICFP or HIW have been
-   held in Asia before. We expect the core group of academics who attend
-   both ICFP and HIW regularly to also attend this year. The number of
-   student attendees is harder to judge as some will be paying their
-   own way.
 
    The breakdown of attendees for HIW 2010 was as follows:
 
@@ -146,8 +138,9 @@ EXPECTED NUMBER OF ATTENDEES:
         1  non Member
         1  student
 
-   Based on this and the trend of the previous workshops we'd
-   expect the numbers of attendees to be 35-45.
+   ICFP and HIW tend to attract more people when they're held in
+   Europe.  Based on this and the previous workshops we'd expect the
+   numbers of attendees to be 50-70.
 
 
 PLANNED LENGTH OF THE WORKSHOP:   1 day
@@ -167,7 +160,7 @@ PLANS FOR A PUBLISHED PROCEEDINGS:
 PREVIOUS VERSIONS OF THE WORKSHOP:
 
 
-   Name                      : Haskell Implementors Workshop (HIW2011)
+   Name                      : Haskell Implementors' Workshop (HIW2011)
    Dates                     : 22nd September 2011
    Location                  : Tokyo, Japan
    Organizers                : Ben Lippmeier, Neil Mitchell
