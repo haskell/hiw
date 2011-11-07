@@ -97,6 +97,7 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
    Atze Dijkstra,           Utrecht University, Netherlands
    Manuel M T Chakravarty,  University of New South Wales, Australia
    David Terei,             Stanford, USA
+   Lennart Augustsson       Standard Chartered Bank, UK
 
    Organizer affiliations:
    Johan Tibell,            Google, USA
@@ -166,7 +167,7 @@ PREVIOUS VERSIONS OF THE WORKSHOP:
    Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2011
    Number of submissions     : 11
    Number of accepted papers : 9x 30 min pre-scheduled talks + 6x lightning talks scheduled on the day.
-   Number of attendees       : 59
+   Number of attendees       : 59 (including on-site registrations)
    Registration fee          : $120 ACM, $150 non-ACM, $80 student.
                                   late registrants paid $150/$180/$90 USD.
    Budget information        : Not yet available
