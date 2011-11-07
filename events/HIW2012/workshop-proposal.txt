@@ -125,22 +125,21 @@ PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 EXPECTED NUMBER OF ATTENDEES:
 
 
-   The breakdown of attendees for HIW 2010 was as follows:
+   The breakdown of attendees for HIW 2011 was as follows:
 
        Early Registration
-        10 ACM/SIG Member
-        10 non Member
-        14 student
-        1  complementary
+        23 ACM/SIG Member
+        12 non Member
+        12 student
 
        Late Registration
-        5  ACM/SIG Member
-        1  non Member
-        1  student
+        4  ACM/SIG Member
+        5  non Member
+        2  student
+        1  complementary
 
-   ICFP and HIW tend to attract more people when they're held in
-   Europe.  Based on this and the previous workshops we'd expect the
-   numbers of attendees to be 50-70.
+   Based on this and the previous workshops we'd expect the numbers of
+   attendees to be 50-70.
 
 
 PLANNED LENGTH OF THE WORKSHOP:   1 day
@@ -170,7 +169,7 @@ PREVIOUS VERSIONS OF THE WORKSHOP:
    Number of attendees       : 59
    Registration fee          : $120 ACM, $150 non-ACM, $80 student.
                                   late registrants paid $150/$180/$90 USD.
-   Budget information        :
+   Budget information        : Not yet available
 
 
    Name                      : Haskell Implementors Workshop (HIW2010)
