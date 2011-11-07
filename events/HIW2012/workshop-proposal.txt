@@ -98,6 +98,7 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
    Manuel M T Chakravarty,  University of New South Wales, Australia
    David Terei,             Stanford, USA
    Lennart Augustsson       Standard Chartered Bank, UK
+   Bryan O'Sullivan         Mailrank, USA
 
    Organizer affiliations:
    Johan Tibell,            Google, USA
