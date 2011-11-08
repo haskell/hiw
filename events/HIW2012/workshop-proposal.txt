@@ -94,11 +94,13 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
    four plus the two organisers to make a PC of six in total.
 
    Simon Marlow,            Microsoft Research, UK
+   Lennart Augustsson       Standard Chartered Bank, UK
    Atze Dijkstra,           Utrecht University, Netherlands
    Manuel M T Chakravarty,  University of New South Wales, Australia
-   David Terei,             Stanford, USA
-   Lennart Augustsson       Standard Chartered Bank, UK
    Bryan O'Sullivan         Mailrank, USA
+   David Terei,             Stanford, USA
+   Conrad Parker            Tsuru Capital, Japan
+   Max Bolingbroke          University of Cambridge, UK
 
    Organizer affiliations:
    Johan Tibell,            Google, USA
