@@ -101,6 +101,7 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
    David Terei,             Stanford, USA
    Conrad Parker            Tsuru Capital, Japan
    Max Bolingbroke          University of Cambridge, UK
+   Edward Z. Yang           MIT, USA
 
    Organizer affiliations:
    Johan Tibell,            Google, USA
