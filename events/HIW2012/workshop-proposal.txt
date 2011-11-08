@@ -106,6 +106,12 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
    Johan Tibell,            Google, USA
    Gregory Collins,         Google, Switzerland
 
+   We've tried to pick PC members with a variety of
+   backgrounds. Unfortunately the Haskell community has few female
+   members (e.g. see the list of people at http://www.haskellers.com/)
+   and we haven't been able to find that would be a good fit for the
+   PC.
+
 PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 
    There will be a CFP asking for potential speakers to submit a talk
