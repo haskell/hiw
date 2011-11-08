@@ -95,7 +95,6 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
 
    Simon Marlow,            Microsoft Research, UK
    Lennart Augustsson       Standard Chartered Bank, UK
-   Atze Dijkstra,           Utrecht University, Netherlands
    Manuel M T Chakravarty,  University of New South Wales, Australia
    Bryan O'Sullivan         Mailrank, USA
    David Terei,             Stanford, USA
