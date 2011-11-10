@@ -98,9 +98,9 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
    Manuel M T Chakravarty,  University of New South Wales, Australia
    Bryan O'Sullivan         Mailrank, USA
    David Terei,             Stanford, USA
-   Conrad Parker            Tsuru Capital, Japan
-   Max Bolingbroke          University of Cambridge, UK
-   Edward Z. Yang           MIT, USA
+   Conrad Parker,           Tsuru Capital, Japan
+   Max Bolingbroke,         University of Cambridge, UK
+   Brent Yorgey,            University of Pennsylvania, USA
 
    Organizer affiliations:
    Johan Tibell,            Google, USA
@@ -109,8 +109,8 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
    We've tried to pick PC members with a variety of
    backgrounds. Unfortunately the Haskell community has few female
    members (e.g. see the list of people at http://www.haskellers.com/)
-   and we haven't been able to find that would be a good fit for the
-   PC.
+   and we haven't been able to find someone who would be a good fit
+   for the PC.
 
 PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 
