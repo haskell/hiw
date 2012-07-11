@@ -1,0 +1,372 @@
+Thomas Schilling
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A Trace-based Just-in-time Compiler for Haskell
+
+Did you ever wonder why GHC didn’t optimise away that one dictionary
+lookup inside your critical loop? Couldn’t get GHC to inline just the
+right amount without blowing up compilation time or code size? Got
+confused why fusion didn’t happen? Got annoyed that you had to
+recompile all your libraries just to turn on profiling?
+
+All these are problems because GHC is a static compiler. To explore
+whether these problems can be fixed by performing optimisations at
+runtime I implemented Lambdachine, a prototype trace-based
+just-in-time (JIT) compiler for Haskell. A JIT compiler knows where a
+program spends most of its time and optimises those parts
+aggressively. A trace-based JIT compiler (as used by Dalvik and LuaJIT
+2) is naturally interprocedural, has a short warm-up period, and short
+compilation pauses. It also fits well with Haskell’s execution model.
+Lambdachine uses GHC as a front-end, thus we could potentially take
+advantage of both static and dynamic optimisations.
+
+I will give a short demo and discuss what works well and what doesn’t
+work so well in a trace-based JIT compiler.
+
+
+Jurriën Stutterheim, Alessandro Vermeulen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Web browser programming with UHC's JavaScript backend
+
+The Utrecht Haskell Compiler (UHC) has a JavaScript backend. This
+backend has been used to experiment with building applications
+intended to run inside web browsers. In particular we did a port of a
+small client-server application. Although both backend and
+client-server applications in itself are not new, the particular
+combination allowing web browser programming in Haskell is new and
+interesting because of entering otherwise unfamiliar Haskell
+territory. We discuss the backend, the JavaScript FFI, the built
+client-server application, and the aspects of this experiment which
+went well as the aspects (both in UHC as well as the Haskell
+ecosystem) which need improvement in order to make Haskell a viable
+option for web browser programming.
+
+
+Edsko de Vries
+~~~~~~~~~~~~~~~~~
+Cloud Haskell 2.0
+
+Cloud Haskell brings Erlang-style concurrency to Haskell. It was
+introduced in "Towards Haskell in the Cloud" by Epstein et al. in
+2011, and comes with a prototype implementation.
+
+Well-Typed are working on a reimplementation of Cloud Haskell. The
+main motivation is a split between the Cloud Haskell layer proper, the
+underlying network layer, and a backend providing initialization, peer
+discovery, node creation, etc. The separate network layer makes it
+possible to run Cloud Haskell over TCP, UDP, CCI or other protocol
+simply by swapping the network layer, and is reusable in other
+projects.
+
+We describe the reorganization of the Cloud Haskell infrastructure,
+the new Network.Transport package, and various improvements that we
+have made to the Cloud Haskell layer itself, in particular:
+
+- A precise semantics of message passing and reliability guarantees,
+  with special attention to reconnects.
+
+- Support for closure combinators. This greatly improves
+  expressiveness; for instance, it becomes possible to define "call"
+  ("run this process over there and send its result back to me") in
+  terms of spawn ("run this process over there").
+
+We also discuss a limitation of new type construct "static" (proposed
+in the original Cloud Haskell paper) and a potential solution.
+
+
+Simon Marlow
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Why can't I get a stack trace?
+
+The lack of any way to get a stack trace in a running Haskell program
+is a gaping hole in our tool chain that annoys both newcomers and
+experts alike. There have been numerous attempts to fill the gap, none
+of which have been satisfactory for a variety of reasons (the history
+alone would fill several talks). I propose to talk about my own
+attempts to solve this thorny problem in the context of GHC, and I'll
+explain the improvements that have been made in this direction in
+recent GHC releases (7.2+). There are still open problems, but we're
+closer to solving them.
+
+
+Iavor Diatchki
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Implementing Type-Level Literals in GHC
+
+Type-level literals, such as natural numbers and string symbols, are
+useful for implementing safer Haskell libraries. For example, natural
+numbers in the types may be used to keep track of the sizes of various
+data structures (e.g., arrays or bit-vectors), while string symbols
+can be used as an infinite source of labels (e.g., to refer to
+statically known resources). In this talk, I will present some of the
+details of the implementation of type-level literals in GHC. In
+particular, I will discuss the overall design, the supporting
+libraries for programming with type-level literals, and demonstrate
+some techniques for writing programs with these libraries. Finally, I
+will give an update of the current state of the constraint solver,
+which adds support for type-level computation involving numbers.
+
+
+Mark Lentczner
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Haskell Platform: Field Report and Future Goals
+
+The Haskell Platform has become the standard way people acquire a
+Haskell programming environment. It is used by novices getting they're
+first exposure, experienced Haskell programmers for their day to day
+programming, and production deployments needing a stable base to build
+on. The platform is settling into a reliable and central part of the
+Haskell landscape.
+
+This talk will report on the current state of the Platform, the
+process of producing it, the relationships of the people involved, and
+the timing of our releases. It will also briefly review the content of
+the Platform, and the processes in place for proposals.
+
+Then, to stimulate discussion on the future of the Platform, I will
+propose language for goals, and present a straw man description of
+what the Platform should strive to be, and not be. I will also propose
+a roadmap for the packages included in the Platform, and some
+suggestions for improving our processes. A lively follow-on discussion
+is anticipated!
+
+
+Joachim Breitner
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dup – Explicit un-sharing in Haskell
+
+Haskell has many means for the programmer to get his program to do the
+right thing. Tools and features to understand and control how the
+program does it are still lacking. Especially the space behavior is
+often surprising and difficult to manipulate. This work is one step
+towards improving that situation.
+
+Sharing usually improves memory performance, but can also hurt
+performance badly when the shared value is large but cheap to
+calculate, e.g. [1..100000000]. We therefore suggest two operations,
+dup and deepDup, that allow the programmer to explicitly prevent
+sharing. In contrast to source transformation based approaches, these
+operations do not require modifying the data generating code. Our
+claims are backed by a formal semantics within Launchbury’s natural
+semantics for lazy evaluation and a proof that duplicated data can be
+fully released, and evaluated using a prototype implementation which
+works with an unmodified GHC.
+
+A detailed description of the approach can be found at
+http://arxiv.org/abs/1207.2017 while the implementation is available
+at http://darcs.nomeata.de/ghc-dup/
+
+
+Mike Izbicki
+~~~~~~~~~~~~~~~~~~~~~~
+Data Mining in Haskell
+
+I am implementing a data mining library in Haskell that can be used
+both for research (developing new algorithms) and real world
+applications.
+
+Haskell offers 3 main advantages for this problem. First, Haskell's
+purity makes it easy to compose functions. This allows us to quickly
+create new combinations of data mining algorithms that no one has
+considered before. For example, finding the optimal parameters for an
+algorithm is usually the hardest part of data mining, but in my system
+we can easily use a search library to find these parameters for any
+algorithm. Second, Haskell's laziness provides opportunities for more
+intuitive algorithms. For example, any online algorithm can be
+converted into a simpler lazy algorithm. Finally, Haskell's
+“mathiness” makes converting algorithms that rely on complex equations
+into code straightforward, and the resulting code is actually
+readable.
+
+The main drawback to Haskell is the current lack of distributed
+computing infrastructure. Many data mining algorithms can be
+parallelized trivially with techniques like the 'par' monad, but to
+handle truly big data we will need some way to easily distribute these
+parallel computations over multiple computers.
+
+
+Georgios Fourtounis, Nikolaos Papaspyrou, Panos Rondogiannis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+An Introduction to the Intensional Transformation for Compiling Haskell
+
+The intensional transformation is a promising technique for
+implementing lazy functional languages based on a demand-driven
+execution model. Despite its theoretical elegance and its simple and
+efficient execution model, the intensional transformation suffered,
+until now, from two main drawbacks: (a) it could only be applied to
+programs that manipulate primitive data-types, and (b) it could only
+compile a simple (and rather restricted) class of higher-order
+functions. We have recently remedied the above two deficiencies,
+obtaining a transformation algorithm that is applicable to mainstream
+lazy functional languages. The proposed transformation initially uses
+defunctionalization in order to eliminate higher-order functions from
+the source program. The resulting first-order program is then
+transformed into a program in a simple tuple-based language. Finally,
+the original intensional transformation is extended in order to be
+applicable to the tuple language.
+
+In this talk, we intend to start with an introduction to the
+intensional transformation and then show how this technique can be
+used to compile a relatively large subset of Haskell.
+
+
+Malak Aljabri, Phil Trinder, Hans-Wolfgang Loidl
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Design of GUMSMP: a Multi-level Parallel Haskell Implementation
+
+The most widely available high performance platforms today are
+multi-level clusters of multi-cores. GHC provides at least two
+parallel Haskell implementations: GHC-SMP for shared memory, and
+GHC-GUM for distributed memory. Both implementations use different but
+related runtime-environment (RTE) mechanisms. Good performance results
+can be achieved on shared memory architectures and on networks
+individually, but a combination of both, for networks of multi-cores,
+is lacking.
+
+We present the design of the new multi-level parallel Haskell RTE,
+GHC-GUMSMP, to better exploit such platforms. It is designed to
+efficiently combine distributed memory parallelism using a virtual
+shared heap over the cluster with optimised, low-overhead shared
+memory parallelism on the multi-cores. Key design objectives in
+realising this system are even but asymmetric load balance, effective
+latency hiding, and mostly passive load distribution. The main
+advantage of this combined approach is to provide a uniform,
+semi-explicit high-level parallel programming model, with adaptive,
+automatic policies on both levels of the hierarchy. Therefore, this
+model relieves the programmer from the burden of explicitly
+controlling coordination on a multi-level hierarchy, delegating such
+control completely to the RTE.
+
+
+Ryan Newton
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Bringing Atomic Memory Operations to a Lazy Language
+
+The GHC Haskell compiler recently gained the capability to generate
+atomic compare-and-swap (CAS) assembly instructions. This opens up a
+new world of data-structure implementation possibilities, but also
+raises a number of problems due to the fact that pointer equality is
+not, in general, a meaningful concept in Haskell.
+
+This talk describes existing CAS support for IORefs and Arrays and
+provide a recipe for others to add additional operations (e.g.
+test-and-set, fetch-and-add). We present performance results for our
+implementations of data structures such as Michael-Scott queues and
+Chase-Lev work-stealing deques. Finally, we give guidelines for how to
+write code that is robust to Haskell program transformations that will
+cause spurious failures of operations like CAS; this includes a
+discussion of GHC-specific guarantees (NOINLINE, etc) that enable safe
+use of atomic pointer operations.
+
+
+Philipp Schuster (speaker), Andres Löh
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Making cabal-install non-destructive
+
+Recently there have been more and more complaints about "cabal
+dependency hell". Many of these complaints have their root in one
+limitation: It is not possible to have more than one instance of a
+certain package version installed per package database. Installing
+another instance overwrites the existing instance and often breaks
+other installed packages that depended on the overwritten instance.
+
+During a Summer of Code project we are lifting this restriction by
+making several instances of the same package version install next to
+each other. This requires serious changes to ghc-pkg, cabal-install,
+the Cabal library and their interaction. Specifically we need:
+
+* A unique install location for each instance
+* An improved way to uniquely identify packages
+* A refined adhoc resolution method for GHC
+* A few changes to the cabal-install solver
+* A garbage collection mechanism for unused packages
+
+In this talk, we are going to describe the changes as well as the
+improvements possible for the end user. In addition to removing the
+possibility of breaking installed packages, the new system also
+promises much more fine-grained dependency tracking.
+
+The project is a work in progress, and the talk will be a status
+report.
+
+
+Michał Pałka
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+High-quality random numbers for Haskell
+
+Pseudo-random number generators (PRNGs) are crucial for random testing
+and simulations in addition to being used routinely in other
+applications. Standard PRNG in Haskell (StdGen) provides the ability
+to split the PRNG state and obtain two 'independent' PRNGs. Splitting
+is used, for example, to generate random values of infinite data
+structures. However, the current implementation of splitting is known
+for being seriously deficient and fails to provide good randomness.
+
+We propose a new PRNG based on a cryptographic block cipher. Such
+PRNGs were long considered too slow for non-cryptographic
+applications, however modern ciphers are efficiently implementable in
+software. Basing a PRNG on a cryptographic block cipher allows us to
+'outsource' the argument about the quality of generated random numbers
+by relying on the security properties claimed for the cipher.
+
+In this talk, we will look at problems that arise in designing a
+splittable PRNG for Haskell and propose a practical implementation of
+a high-quality PRNG based on the Threefish block cipher. The new PRNG
+is only marginally slower than StdGen with typical QuickCheck
+properties and is much faster when used for bulk generation of random
+data. Finally, we discuss possible changes to the RandomGen class.
+
+
+Niklas Broberg
+~~~~~~~~~~~~~
+haskell-suite
+
+For many years now, Haskell has become increasingly synonymous with
+its implementation in GHC. While GHC is an incredible and much beloved
+compiler, this situation is still unfortunate. GHC is a highly
+optimizing compiler, and the implementation choices are made
+thereafter. In particular, the possibility to use GHC compiler
+functionality from third-party code is added as an afterthought, in
+the ghc-mod library. Pointedly, the library interface reflect the
+structure of GHC more than the needs of client library writers.
+
+My haskell-src-exts library has become the de facto library for
+manipulating Haskell source code. Its interface is designed entirely
+with its clients in mind, and it has been widely adopted in the
+Haskell community. But syntactic manipulation only gets you so far,
+and many are the voices that decry the lack of accompanying semantic
+abilities, and work has started on delivering that.
+
+In my talk I will give an overview of the existing work on
+haskell-src-exts (syntax), haskell-name-exts (name resolution) and
+haskell-type-exts (type checking). I will also present my grand vision
+for a complete haskell-suite: a modular set of libraries covering all
+that is Haskell, forming a reference implementation.
+
+
+Michael Sloan
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Deriving Class with Instance Templates
+
+Hardly any discussion of type class hierarchy goes without the common
+gripe that Applicative ought to be the superclass of Monad. However,
+restructuring this hierarchy would break a great deal of code,
+particularly if we removed redundant methods such as "pure".
+
+This Haskell extension proposal provides a simple solution for
+refactoring type-class hierarchies while maintaining backwards
+compatibility. However, it can do more than this, allowing boilerplate
+declarations to be generated in terms of some common pattern of usage.
+Functions in Haskell enjoy the reasoning and abstraction benefits of
+referential transparency. This extension gives us this same power, but
+for instance declarations, allowing for the abstraction of common
+instantiation patterns.
+
+I have a prototype of this extension as a work-in-progress TH library,
+which can be applied to code via a straightforward syntactic rewrite.
+This library, and documentation of this proposal can be found here:
+
+https://github.com/mgsloan/instance-templates
+
+In this talk, I will discuss how this proposal contrasts with existing
+methods of solving this problem, how the prototype works, and what
+additional capabilities it provides to library creators.
