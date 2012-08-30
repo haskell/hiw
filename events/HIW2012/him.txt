@@ -1,0 +1,118 @@
+Event: Haskell Implementors' Workshop
+Date: Sep 14, 2012
+-- this is a comment (ignored)
+-- use only the above format for dates!
+-- use utf-8 encoding for non-ASCII characters
+-- one file for each day
+-- three kinds of entry
+-- * session
+-- * talk
+-- * end
+-- regexp: event date (session | talk)+ end
+
+-- session with session title
+-- optional chair
+-- required start: starting time in 24-hour format
+-- field contents: first non-blank after colon till end of line
+-- Session: Welcome
+-- Start: 08:45
+--
+-- Session: Keynote
+-- Start: 09:00
+
+-- talk with talk title
+-- required start
+-- required author(s)
+-- required affiliation(s)
+-- regexp: talk start (author+ affiliation)+
+
+Session: Session 1
+Start: 09:00
+
+Talk: GHC Status Update
+Start: 09:00
+Author: Simon Peyton-Jones
+Affiliation: Microsoft Research Ltd.
+
+Talk: A Trace-based Just-in-time Compiler for Haskell
+Start: 09:30
+Author: Thomas Schilling
+Affiliation: University of Kent
+
+Talk: First Lightning Talks Session
+Start: 10:00
+
+Session: Break
+Start: 10:30
+
+Session: Session 2
+Start: 11:00
+
+Talk: Bringing Atomic Memory Operations to a Lazy Language
+Start: 11:00
+Author: Ryan Newton
+Affiliation: Indiana University
+
+Talk: Cloud Haskell 2.0
+Start: 11:30
+Author: Duncan Coutts
+Author: Edsko de Vries
+Affiliation: Well-Typed LLP
+
+Talk: Why can't I get a stack trace?
+Start: 12:00
+Author: Simon Marlow
+Affiliation: Microsoft Research Ltd.
+
+Session: Lunch Break
+Start: 12:30
+
+Session: Session 3
+Start: 14:00
+
+Talk: Implementing Type-Level Literals in GHC
+Start: 14:00
+Author: Iavor S. Diatchki
+Affiliation: Galois, Inc.
+
+Talk: Haskell Platform: Field Report and Future Goals
+Start: 14:30
+Author: Mark Lentczner
+Affiliation: Google, Inc.
+
+Talk: Second Lightning Talks Session
+Start: 15:00
+
+Session: Break
+Start: 15:30
+
+Session: Session 4
+Start: 16:00
+
+Talk: Web browser programming with UHC's JavaScript backend
+Start: 16:00
+Author: Atze Dijkstra
+Author: Alessandro Vermeulen
+Author: Jurriën Stutterheim
+Affiliation: Utrecht University
+
+Talk: Making cabal-install non-destructive
+Start: 16:30
+Author: Philipp Schuster
+Affiliation: University of Koblenz-Landau
+Author: Andres Löh
+Affiliation: Well-Typed LLP
+
+Talk: haskell-suite
+Start: 17:00
+Author: Niklas Broberg
+Affiliation: Chalmers University of Technology
+
+Talk: Third Lightning Talks Session and Beyond Haskell Discussion
+Start: 17:30
+
+-- records omitted
+
+-- everything after end is ignored
+End: 18:00
+
