@@ -101,6 +101,19 @@ http://www.sigplan.org/DiversityPolicy.htm
 -- History ----------------------------------------------------------------------------------------
 -- These history records have the same format as that required by the ICFP workshop form.
 
+-- HIW 2012
+Name                      : Haskell Implementors' Workshop (HIM2012)
+Dates                     : 14th September 2012
+Location                  : Copenhagen, Denmark
+Organizers                : Johan Tibell, Gregory Collins
+Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2012
+Number of submissions     : 16
+Number of accepted papers : 10x 30 min pre-scheduled talks + 11x lightning talks scheduled on the day.
+Number of attendees       : 91 (including on-site registrations)
+Registration fee          : $150 ACM, $200 non-ACM, $100 student.
+                               late registrants paid $250/$200/$150 USD.
+Budget information        :
+
 -- HIW 2011
 Name                      : Haskell Implementors Workshop (HIW2011)
 Dates                     : 22nd September 2011
