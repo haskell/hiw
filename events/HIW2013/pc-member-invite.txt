@@ -1,0 +1,46 @@
+
+Hi $PCMEMBER,
+
+Gregory Collins and I are organising the Haskell Implementers'
+Workshop to be co-located with ICFP and the Haskell Symposium this
+year and we would like to invite you to join the programme committee.
+
+This will be the fourth year we run this workshop, in this format.
+Here's the website from the previous workshops, which includes the
+programme for each year.
+
+http://haskell.org/haskellwiki/HaskellImplementorsWorkshop
+
+We're planning to run the event in more or less the same way this year.
+The scope is:
+
+     * Compilation techniques
+     * Language features and extensions
+     * Type system implementation
+     * Concurrency and parallelism: language design and implementation
+     * Performance, optimisation and benchmarking
+     * Virtual machines and run-time systems
+     * Libraries and Tools
+
+We will not have any proceedings so the workload for programme
+committee members should not be too high. We aim to have a programme
+committee with six members, including the two organisers. The tasks
+for the programme committee will be to:
+
+    1. come up with suggestions for speakers to invite
+    2. review applications from speakers
+    3. have a short online PC meeting to select talks
+
+We hope to have one or two invited speakers and the rest applications
+from speakers. We may also have a session of lightning talks organised
+on the day (or shortly in advance).
+
+Of course if you have any suggestions for the organisation or running
+of the workshop that is also most welcome. Note also that Greg and I
+intend to hand over the organisation of the subsequent workshop to new
+hands. Members of this year's PC would be first in line if they would
+like to take that on.
+
+We look forward to hearing from you,
+
+Johan and Greg

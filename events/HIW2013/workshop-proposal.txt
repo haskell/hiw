@@ -1,19 +1,18 @@
 ----------------------------------------------------------------------
 
-            ICFP 2012, THE 17TH ACM SIGPLAN INTERNATIONAL
+            ICFP 2013, THE 18TH ACM SIGPLAN INTERNATIONAL
                  CONFERENCE ON FUNCTIONAL PROGRAMMING
 
-                       SEPTEMBER 9 - 15, 2012
-                         Copenhagen, Denmark
+                       SEPTEMBER 22 - 28, 2013
+                     Boston, Massachusetts, USA
 
                         WORKSHOP PROPOSAL FORM
 
-    Note: for workshops that were affiliated with ICFP in 2011, a copy
+    Note: for workshops that were affiliated with ICFP in 2012, a copy
     of last year's completed proposal form can be obtained for
-    reference, by emailing icfp12-workshops at cse.unsw.edu.au.
+    reference, by emailing icfp13-workshops@ccs.neu.edu.
 
 ----------------------------------------------------------------------
-
 
 NAME OF THE WORKSHOP:
 
@@ -71,21 +70,18 @@ The scope is as follows:
 
 ORGANIZERS OF THE WORKSHOP:
 
-   Name    : Johan Tibell
-   Address : 2433 Polk St Apt 5
-             San Francisco, CA 94109
-             USA
-   Email   : johan.tibell@gmail.com
-   Phone   : +1 415 886 5239
-   Mobile  : +1 415 886 5239
+   Name    : Ryan Newton
+   Address : 1000 S Jordan Ave,
+             Bloomington, IN 47401
+   Email   : rrnewton@indiana.edu
+   Phone   : +1 812 856 4205
+   Mobile  : +1 812 269 6190
 
-   Name    : Gregory Collins
-   Address : Staffelstrasse 4
-             8045 Zurich
-             Switzerland
-   Email   : greg@gregorycollins.net
-   Phone   : +41 79 441 6832
-   Mobile  : +41 79 441 6832
+   Name    : TBD
+   Address : TBD
+   Email   : TBD
+   Phone   : TBD
+   Mobile  : TBD
 
 
 NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
@@ -101,16 +97,19 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
    Conrad Parker,           Tsuru Capital, Japan
    Max Bolingbroke,         University of Cambridge, UK
    Brent Yorgey,            University of Pennsylvania, USA
-
-   Organizer affiliations:
    Johan Tibell,            Google, USA
    Gregory Collins,         Google, Switzerland
+
+   Organizer affiliations:
+   Ryan Newton ,            Indiana University, USA
+   TBD,                     TBD
 
    We've tried to pick PC members with a variety of
    backgrounds. Unfortunately the Haskell community has few female
    members (e.g. see the list of people at http://www.haskellers.com/)
    and we haven't been able to find someone who would be a good fit
    for the PC.
+
 
 PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 
@@ -134,39 +133,40 @@ PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 
 EXPECTED NUMBER OF ATTENDEES:
 
-
-   The breakdown of attendees for HIW 2011 was as follows:
-
-       Early Registration
-        23 ACM/SIG Member
-        12 non Member
-        12 student
-
-       Late Registration
-        4  ACM/SIG Member
-        5  non Member
-        2  student
-        1  complementary
+   We had a significant increase in attendance last year (91 attendees).
 
    Based on this and the previous workshops we'd expect the numbers of
-   attendees to be 50-70.
+   attendees to be 75-100.
 
 
-PLANNED LENGTH OF THE WORKSHOP:   1 day
+PLANNED LENGTH OF THE WORKSHOP:   
+
+   1 day, usually directly following the Haskell Symposium.
 
 PLANS FOR PUBLICITY:
 
    Haskell mailing lists, blogs, newsgroups, web site, personal
    invitations.
 
-
 PLANS FOR A PUBLISHED PROCEEDINGS:
 
    No proceedings.  Talk videos and slides published online with
    consent from speakers.
 
-
 PREVIOUS VERSIONS OF THE WORKSHOP:
+
+
+   Name                      : Haskell Implementors' Workshop (HIM2012)
+   Dates                     : 14th September 2012
+   Location                  : Copenhagen, Denmark
+   Organizers                : Johan Tibell, Gregory Collins
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2012
+   Number of submissions     : 16
+   Number of accepted papers : 10x 30 min pre-scheduled talks + 11x lightning talks scheduled on the day.
+   Number of attendees       : 91 (including on-site registrations)
+   Registration fee          : $150 ACM, $200 non-ACM, $100 student.
+				  late registrants paid $250/$200/$150 USD.
+   Budget information        : Not yet available
 
 
    Name                      : Haskell Implementors' Workshop (HIW2011)
@@ -232,21 +232,20 @@ ADDITIONAL INFORMATION:
    CUFP tutorials as these are aimed at users of FP which are
    largely disjoint from the set of implementors.
 
-   At ICFP 2011 the scope of events progressed from "academic/theory"
-   though to "engineering/practice" over the course of the week, with
-   HIW on the second last day running concurrently with CUFP Tutorials.
-   This seemed like a good fit.
-
+   At ICFP 2011 and 2012 the scope of events progressed from
+   "academic/theory" through to "engineering/practice" over the course
+   of the week, with HIW on the second last day running concurrently
+   with CUFP Tutorials.  This seemed like a good fit.
 
 SUBMISSION INFORMATION:
 
-   The deadline for workshop proposals is NOVEMBER 19, 2011,
-   and the completed form should be emailed to the ICFP 2012
-   workshop co-chairs (Patrik Jansson and Gabriele Keller),
-   via email to icfp12-workshops at cse.unsw.edu.au.
+   The deadline for workshop proposals is DECEMBER 7, 2012,
+   and the completed form should be emailed to the ICFP 2013
+   workshop co-chairs (Patrik Jansson and Sam Tobin-Hochstadt),
+   via email to icfp13-workshops@ccs.neu.edu.
 
    Authors of workshop proposals will be notified of acceptance
-   or rejection by DECEMBER 17, 2011.
+   or rejection by JANUARY 7, 2013.
 
    PLEASE NOTE:
    Organizers should await SIGPLAN approval of the included program
