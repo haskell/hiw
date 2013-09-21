@@ -1,0 +1,49 @@
+
+
+---2009---
+
+    Duncan Coutts - co-chair (Well-Typed LLP)
+    Atze Dijkstra (Utrecht University)
+    Roman Leshchinskiy (University of New South Wales)
+    Simon Marlow - co-chair (Microsoft Research)
+    Bryan O'Sullivan (Linden Lab)
+    Wouter Swierstra (Chalmers University of Technology)
+
+---2010---
+
+    Jean-Philippe Bernardy (Chalmers University of Technology)
+    Duncan Coutts - co-chair (Well-Typed LLP)
+    Iavor Diatchki (Galois)
+    Simon Marlow - co-chair (Microsoft Research)
+    Ben Lippmeier (University of New South Wales)
+    Neil Mitchell (Standard Chartered)
+
+---2011---
+
+    Rebekah Leslie           (Portland State University)
+    Ben Lippmeier - co-chair (University of New South Wales)
+    Andres Löh               (Well-Typed LLP)
+    Oleg Lobachev            (University of Marburg)
+    Neil Mitchell - co-chair (Standard Chartered)
+    Dimitrios Vytiniotis     (Microsoft Research)
+
+---2012---
+
+  * Lennart Augustsson         (Standard Chartered Bank)
+  * Manuel M T Chakravarty     (University of New South Wales)
+  * Gregory Collins - co-chair (Google)
+  * Simon Marlow               (Microsoft Research)
+  * David Terei                (Stanford University)
+  * Johan Tibell - co-chair    (Google)
+
+---2013---
+
+  * Ryan Newton      (Indiana University)
+  * Neal Glew        (Intel Labs)
+  * Edward Yang      (Stanford University)
+  * Thomas Schilling (University of Kent)
+
+invited
+------- 
+
+geoff mainland

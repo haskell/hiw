@@ -2,16 +2,16 @@
 Hi $PCMEMBER,
 
 I am organising the Haskell Implementers' Workshop to be co-located
-with ICFP and the Haskell Symposium this year and we would like to
-invite you to join the programme committee.
+with ICFP and the Haskell Symposium this year and I would like to
+invite you to join the program committee.
 
 This will be the fifth year we run this workshop, in this format.
 Here's the website from the previous workshops, which includes the
-programme for each year.
+program for each year.
 
   http://haskell.org/haskellwiki/HaskellImplementorsWorkshop
 
-We're planning to run the event in more or less the same way this year.
+I'm planning to run the event in more or less the same way this year.
 The scope is:
 
      * Compilation techniques
@@ -22,16 +22,16 @@ The scope is:
      * Virtual machines and run-time systems
      * Libraries and Tools
 
-We will not have any proceedings so the workload for programme
-committee members should not be too high. We aim to have a programme
+We will not have any proceedings so the workload for program
+committee members should not be too high. I aim to have a program
 committee with six members, including the organiser. The tasks
-for the programme committee will be to:
+for the program committee will be to:
 
     1. come up with suggestions for speakers to invite
     2. review applications from speakers
     3. have a short online PC meeting to select talks
 
-We hope to have one or two invited speakers and the rest applications
+I hope to have one or two invited speakers and the rest applications
 from speakers. We may also have a session of lightning talks organised
 on the day (or shortly in advance).
 

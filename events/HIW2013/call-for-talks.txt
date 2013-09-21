@@ -1,22 +1,21 @@
                              Call for Talks
                ACM SIGPLAN Haskell Implementors' Workshop
 
-    http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2012
-               Copenhagen, Denmark, September 14th, 2012
-        The workshop will be held in conjunction with ICFP 2012
-                http://www.icfpconference.org/icfp2012/
+    http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2013
+                Boston, USA, September 22th, 2013
+        The workshop will be held in conjunction with ICFP 2013
+                http://www.icfpconference.org/icfp2013/
 
 Important dates
 
-Proposal Deadline:  10th July      2012
-Notification:       27th July      2012
-Workshop:           14th September 2012
+Proposal Deadline:  13th August    2013 (by midnight, any timezone)
+Notification:       27th August    2013
+Workshop:           22th September 2013
 
-The Haskell Implementors' Workshop is to be held alongside ICFP 2012
-this year in Copenhagen, Denmark. There will be no proceedings; it is an
-informal gathering of people involved in the design and development of
-Haskell implementations, tools, libraries, and supporting
-infrastructure.
+The Haskell Implementors' Workshop is to be held alongside ICFP 2013
+this year in Boston. There will be no proceedings; it is an informal
+gathering of people involved in the design and development of Haskell
+implementations, tools, libraries, and supporting infrastructure.
 
 This relatively new workshop reflects the growth of the user community:
 there is a clear need for a well-supported tool chain for the
@@ -35,7 +34,7 @@ Scope and target audience
 -------------------------
 
 It is important to distinguish the Haskell Implementors' Workshop from
-the Haskell Symposium which is also co-located with ICFP 2012. The
+the Haskell Symposium which is also co-located with ICFP 2013. The
 Haskell Symposium is for the publication of Haskell-related research. In
 contrast, the Haskell Implementors' Workshop will have no proceedings --
 although we will aim to make talk videos, slides and presented data
@@ -70,8 +69,17 @@ minutes for questions and changeovers. We want to hear from people
 writing compilers, tools, or libraries, people with cool ideas for
 directions in which we should take the platform, proposals for new
 features to be implemented, and half-baked crazy ideas. Please submit a
-talk title and abstract of no more than 200 words to:
-johan.tibell@gmail.com
+talk title and abstract of no more than 200 words.
+
+Submissions should be made via EasyChair.  The website is:
+  https://www.easychair.org/conferences/?conf=hiw2013
+
+If you don't have an account you can create one here:
+  https://www.easychair.org/account/signup.cgi 
+
+Because the submission is an abstract only, please click the "abstract
+only" button when you make your submission.  There is no need to
+attach a separate file.
 
 We will also have a lightning talks session which will be organised on
 the day. These talks will be 2-10 minutes, depending on available time.
@@ -83,9 +91,9 @@ implementors, or simply to ask for feedback and collaborators.
 Organisers
 ----------
 
-  * Lennart Augustsson         (Standard Chartered Bank)
-  * Manuel M T Chakravarty     (University of New South Wales)
-  * Gregory Collins - co-chair (Google)
-  * Simon Marlow               (Microsoft Research)
-  * David Terei                (Stanford University)
-  * Johan Tibell - co-chair    (Google)
+  * Ryan Newton        (Indiana University)
+  * Neal Glew          (Intel Labs)
+  * Edward Yang        (Stanford University)
+  * Thomas Schilling   (University of Kent)
+  * Geoffrey Mainland  (Drexel University)
+
