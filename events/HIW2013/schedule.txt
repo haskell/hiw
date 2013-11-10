@@ -1,0 +1,52 @@
+
+
+From Michael Adams:
+
+Also, I've been talking with Andrew Farmer and Andy Gill.  If it is
+not too much trouble, we would like to have my talk [1] after their
+talk [2] (possibly back to back).  The two talks complement each other
+and make the most sense in that order.
+
+[1] Optimizing "Scrap Your Boilerplate" with HERMIT
+[2] Prototyping GHC Optimizations using HERMIT by Andrew Farmer and Andy Gill.
+
+ALSO: Kmett needs to not be scheduled at the same time as his CUFP talk.
+  He is at 4:40-5:05 on the CUFP schedule...
+
+====================================================================================================
+BELOW is a COPY of the relevant portion of the Wiki.
+====================================================================================================
+
+== Programme ==
+
+
+9:00-10:30 Session 1
+* '''GHC Status Update''' (Simon Peyton Jones)
+* '''[[HaskellImplementorsWorkshop/2013/Bazerman|Haskell.org Committee and Infrastructure Status Update]]''' (Gershom Bazerman)
+* '''[[HaskellImplementorsWorkshop/2013/Kmett|Introducing the Core Libraries Committee]]''' (Edward Kmett)
+
+10:30-11:00: Coffee Break
+
+11:00-12:30 Session 2
+
+* '''[[HaskellImplementorsWorkshop/2013/Eisenberg|GeneralizedNewtypeDeriving is now type-safe: How "Roles" save the day]]''' (Richard A. Eisenberg)
+* '''[[HaskellImplementorsWorkshop/2013/Yang|Resource Limits for Haskell]]''' ([http://ezyang.com Edward Z. Yang])
+* '''[[HaskellImplementorsWorkshop/2013/Robinson|SpecConstr: optimising purely functional loops]]''' (Amos Robinson)
+
+12:30-14:00: Lunch
+
+14:00-15:30: Session 3
+
+* '''[[HaskellImplementorsWorkshop/2013/Adams|Optimizing "Scrap Your Boilerplate" with HERMIT]]''' (Michael D. Adams, Andrew Farmer and José Pedro Magalhães)
+* '''[[HaskellImplementorsWorkshop/2013/Farmer|Prototyping GHC Optimizations with HERMIT]]''' (Andrew Farmer and Andy Gill)
+* '''[[HaskellImplementorsWorkshop/2013/Jones|Inhabiting Habit: An Introduction to the Habit Compiler]]''' (Mark Jones)
+
+15:30-16:00: Coffee Break
+
+16:00-17:00: Session 4
+
+* '''[[HaskellImplementorsWorkshop/2013/Berthold|Run-time supported Haskell Serialisation - an API]]''' (Jost Berthold)
+* '''Lightning Talks''': Sign up at the beginning of the day.
+
+[[Category:Community]]
+

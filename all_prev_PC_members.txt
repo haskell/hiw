@@ -42,8 +42,7 @@
   * Neal Glew        (Intel Labs)
   * Edward Yang      (Stanford University)
   * Thomas Schilling (University of Kent)
+  * Geoff Mainland   (Drexel University)
 
-invited
-------- 
 
-geoff mainland
+
