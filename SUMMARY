@@ -101,6 +101,21 @@ http://www.sigplan.org/DiversityPolicy.htm
 -- History ----------------------------------------------------------------------------------------
 -- These history records have the same format as that required by the ICFP workshop form.
 
+-- HIW 2013
+   Name                      : Haskell Implementors Workshop (HIW2013)
+   Dates                     : 22 September 2012
+   Location                  : Boston, USA
+   Organizers                : Ryan Newton
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2012
+   Number of submissions     : 11
+   Number of accepted papers : 10 x 30 min session + 4 lightning talks scheduled on the day
+   Number of attendees       : 48
+   Registration fee          : $150 ACM, $200 non-ACM, $100 student (ICFP workshop day pass)
+                               late registrants paid $250/$200/$150 USD.
+   Budget information        : handled by ACM, co-located with ICFP
+
+
+
 -- HIW 2012
 Name                      : Haskell Implementors' Workshop (HIM2012)
 Dates                     : 14th September 2012

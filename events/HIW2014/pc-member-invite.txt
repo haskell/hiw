@@ -1,0 +1,47 @@
+
+Hi $PCMEMBER,
+
+Geoff Mainland and I are organising the Haskell Implementers' Workshop 
+to be co-located with ICFP and the Haskell Symposium this year and I
+would like to invite you to join the program committee.
+
+The workshop is now in its sixth year, with an informal format of
+prepared talks and demos as well as impromptu sessions with lightning
+talks. You can read about the workshops on these website:
+  http://haskell.org/haskellwiki/HaskellImplementorsWorkshop
+to learn more about its format and previous workshops' programmes.
+
+I'm planning to run the event in more or less the same way this year.
+We hope to get many talk proposals from speakers, but will certainly
+also have one or two invited speakers.
+
+We will not have any proceedings so the workload for program
+committee members should not be too high. I aim to have a program
+committee with six to seven members, including the organisers.
+The tasks for the program committee will be to:
+
+    1. come up with suggestions for speakers to invite
+    2. encourage talk proposals in your network
+    3. review applications from speakers
+    4. have a short online PC meeting to select talks
+    5. (if you attend ICFP/HIW) chair one of the HIW sessions
+
+Of course if you have any suggestions for the organisation or running
+of the workshop that is also most welcome. The organisation of
+subsequent workshops will be passed into new hands, and PC members are
+most welcome to express interest.
+
+I look forward to hearing from you,
+
+-- Jost
+
+
+---------------------
+
+doaitse@swierstra.net    Doaitse Swierstra (NOTE! emeritus!)
+carter.schonwald@gmail.com    Carter Schonwald,  WellPosed Ltd, USA
+loogen@mathematik.uni-marburg.de    Rita Loogen, Philipps-Univ. Marburg, DE
+keller@cse.unsw.edu.au    Gabriele Keller,   U. of New South Wales, AU
+hai.liu@intel.com    Paul Liu   Intel, USA
+
+kh@cs.st-and.ac.uk   Kevin Hammond,  Univ. of St.Andrews, UK

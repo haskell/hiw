@@ -1,0 +1,253 @@
+----------------------------------------------------------------------
+
+            ICFP 2014, THE 19TH ACM SIGPLAN INTERNATIONAL
+                 CONFERENCE ON FUNCTIONAL PROGRAMMING
+
+                       AUGUST 31 – SEPTEMBER 6
+                           Gothenburg, Sweden
+
+                        WORKSHOP PROPOSAL FORM
+
+    Note: for workshops that were affiliated with ICFP in 2013, a copy
+    of last year's completed proposal form can be obtained for
+    reference, by emailing icfp2014-workshops@ugent.be.
+
+----------------------------------------------------------------------
+
+NAME OF THE WORKSHOP:
+
+   Haskell Implementors' Workshop
+
+GOALS OF THE WORKSHOP:
+
+  The Haskell implementors' workshop is a forum for those involved in
+  implementing Haskell systems, infrastructure, libraries and tools,
+  generally for people involved in implementing Haskell technology, to
+  share their work and discuss future directions and collaborations
+  with others.
+  
+  The scope in a bulleted list is:
+
+  * Compilation techniques
+  * Language features and extensions
+  * Type system implementation
+  * Concurrency and parallelism: language design and implementation
+  * Performance, optimisation and benchmarking
+  * Virtual machines and run-time systems
+  * Libraries and Tools
+
+  The workshop does not have proceedings. Talks are proposed by
+  submitting an abstract, and selected by a small program committee.
+  We intend the workshop to have an informal and interactive feel,
+  with a flexible timetable and plenty of room for ad-hoc discussion,
+  demos, and impromptu short talks.
+
+  The workshop was held in conjunction with ICFP since 2009, and
+  always featured both scheduled 30-minute talks and varying number of
+  "lightning talks" contributed on the day.
+  Aside from the core "implementors", it also attracts developers
+  using Haskell in industry when they attend ICFP.
+
+Why is there a need for this workshop?
+
+  * The Haskell user community and language are growing rapidly.
+    Implementations are becoming increasingly complex.  There is an
+    acute need for a well supported tool chain for the deployment and
+    configuration of Haskell software.  This workshop gives the
+    language implementors and designers an opportunity to bat around
+    ideas, share experiences, and ask for feedback from fellow experts.
+
+  * The Haskell Workshop is now the Haskell Symposium, and as a result
+    is no longer suitable for work-in-progress or pure implementation
+    presentations. The focus of HIW is on those developers implementing
+    the Haskell ecosystem itself, rather than using Haskell for other ends.
+
+  * ICFP is the one time in the year when most of those working on
+    Haskell infrastructure are together in the same place, so this is
+    the ideal time to hold the workshop.  Most of the potential
+    attendees will also want to attend the Haskell Symposium and ICFP.
+
+ORGANIZERS OF THE WORKSHOP:
+
+   Name    : Jost Berthold
+   Address : Dept. of Computer Science, University of Copenhagen (DIKU)
+             Universitetsparken 5, 2100 Copenhagen, DK
+   Email   : berthold@diku.dk
+   Phone   : +45 23839918
+   Mobile  : +45 23839918
+
+   Name    : Geoffrey Mainland
+   Address : Department of Computing, Drexel University,
+              3141 Chestnut St., Philadelphia, PA 19104, USA 
+   Email   : mainland@cs.drexel.edu
+   Phone   : +1 215 895 1518
+   Mobile  : +1 650 219 5901
+
+
+NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
+
+    This is a list of potential PC members. We aim to select five
+    people plus the organiser to make a PC of six in total (while
+    maintaining balance between academics and industrial members).
+
+    Joachim Breitner,       Karlsruhe Institute of Technology, DE
+    Kevin Hammond,          University of St.Andrews
+    Gabriele Keller,        University of New South Wales, AU
+    Roman Leshchinskiy,     Standard Chartered Bank, UK
+    Rita Loogen,            Philipps-Universitat Marburg, DE
+    Brian O'Sullivan,       Facebook Ltd, USA (+ Stanford U., USA)
+    Carter Schonwald,       WellPosed Ltd, USA
+    Doaitse Swierstra,      Utrecht Universiteit, NL
+    Johan Tibell,           Google, CH
+    Andreas Vollmy,         Yale University, USA
+
+PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
+
+   There will be a CFP asking for potential speakers to submit a talk
+   abstract, of similar length to a paper abstract, optionally with
+   pointers to supporting materials.  The PC may also invite a
+   number of speakers.  There will be a short online PC meeting to
+   make the final programme selection.
+
+   Calls for participation will be made in the usual way, using
+   mailing lists, blogs, newsgroups and so on.
+
+   Rough timeline:
+    * CFP towards the end of May; a second CFP sent out at the end of June
+
+    * deadline for contributions mid-July;
+
+    * Online PC meeting shortly after the submission deadline;
+
+    * notification to speakers towards the end of July
+      (we aim to stay before the early registration deadline).
+
+
+EXPECTED NUMBER OF ATTENDEES:
+
+  Based on an average attendance over the last three years, we expect
+  around 60 people to attend.
+  Participants often choose to attend part of HIW while attending part
+  of other workshops as well (workshops synchronise their schedules
+  for this purpose).
+
+PLANNED LENGTH OF THE WORKSHOP: 
+
+1 day
+
+PLANS FOR PUBLICITY:
+
+   Haskell mailing lists, blogs, newsgroups, web site, personal
+   invitations.
+
+PLANS FOR A PUBLISHED PROCEEDINGS:
+
+   No proceedings.
+   Abstracts and slides published on the workshop page (wiki, authors to 
+   upload). Possibly talk videos published online with speakers' consent.
+
+
+PREVIOUS VERSIONS OF THE WORKSHOP:
+
+   Name                      : Haskell Implementors Workshop (HIW2013)
+   Dates                     : 22 September 2012
+   Location                  : Boston, USA
+   Organizers                : Ryan Newton
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2012
+   Number of submissions     : 11
+   Number of accepted papers : 10 x 30 min session + 4 lightning talks scheduled on the day
+   Number of attendees       : 48
+   Registration fee          : ICFP workshop day pass (standard price $200)
+   Budget information        : handled by ACM, co-located with ICFP
+
+   Name                      : Haskell Implementors Workshop (HIW2012)
+   Dates                     : 14 September 2012
+   Location                  : Copenhagen, DK
+   Organizers                : Gregory Collins, Johan Tibell
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2012
+   Number of submissions     : 16
+   Number of accepted papers : 10 x 30 min.talks + 11 lightning talks scheduled on the day
+   Number of attendees       : 91 (incl. on-site registration)
+   Registration fee          : ICFP workshop day pass (standard price $200)
+   Budget information        : handled by ACM, co-located with ICFP
+
+   Name                      : Haskell Implementors Workshop (HIW2011)
+   Dates                     : 23 September 2011
+   Location                  : Tokyo, JP
+   Organizers                : Ben Lippmeier, Neil Mitchell
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2011
+   Number of submissions     : 11
+   Number of accepted papers : 9 x 30 min session + 6 lightning talks scheduled on the day
+   Number of attendees       : 59 (incl. on-site registration)
+   Registration fee          : $150 (standard price early registration)
+   Budget information        : handled by ACM, co-located with ICFP
+
+   Name                      : Haskell Implementors Workshop (HIW2010)
+   Dates                     : October 1st 2010
+   Location                  : Baltimore, USA
+   Organizers                : Simon Marlow, Duncan Coutts
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2010
+   Number of submissions     : 11 talk proposals
+   Number of accepted papers : 10x 30 min pre-scheduled talks + 8x 5 min lightning talks scheduled on the day.
+   Number of attendees       : 42 (including on-site registrations)
+   Registration fee          : $170 ACM, $200 non-ACM, $95 student.
+                                  late registrants paid $200/$240/$110 USD.
+   Budget information        : Total income $6380USD (~150 per attendee)
+                               Expenses:
+                                  Catering                $4410
+                                  AV Cost                  $580
+                                  ACM/SIGPLAN overhead    $1390
+
+
+   Name                      : Haskell Implementors' Workshop (HIW2009)
+   Dates                     : September 5th 2009
+   Location                  : Edinburgh, UK
+   Organizers                : Simon Marlow, Duncan Coutts
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2009
+   Number of submissions     : 16 talk proposals
+   Number of accepted papers : 11 talks
+   Number of attendees       : 51 (not including on-site registrations)
+   Registration fee          : $125 ACM, $150 non-ACM, $75 student,
+                                  late registrants paid $150/$180/$90
+   Budget information        : $95 per participant,
+                                  plus 16% overhead going to ACM,
+                                  plus a contingency buffer (15% of direct costs)
+
+WORKSHOP WEBSITE:
+
+   http://haskell.org/haskellwiki/HaskellImplementorsWorkshop
+
+
+VIDEO RECORDING:
+
+Video recording would be appreciated as availability of contributions
+would otherwise reduce to putting abstract and slides online.
+
+ADDITIONAL INFORMATION:
+
+   HIW should not run in parallel with the Haskell Symposium, as most
+   HIW attendees will want to go to both.  Likewise, running in
+   parallel with CUFP talks may be unfavourable.
+   It can very well run in parallel with CUFP tutorials as these are
+   aimed at new FP users which are largely disjoint from the HIW
+   target audience.
+
+   In the past, HIW was often run one day after the Haskell workshop,
+   concurrently with CUFP Tutorials, which appears to suit the
+   participants best.
+
+SUBMISSION INFORMATION:
+
+   The deadline for workshop proposals is NOVEMBER 15, 2013,
+   and the completed form should be emailed to the ICFP 2014
+   workshop co-chairs (Sam Tobin-Hochstadt and Tom Schrijvers),
+   via email to icfp2014-workshops@ugent.be.
+
+   Authors of workshop proposals will be notified of acceptance
+   or rejection by DECEMBER 15, 2013.
+
+   PLEASE NOTE:
+   Organizers should await SIGPLAN approval of the included program
+   committee membership prior to sending out PC invitations.
+
+----------------------------------------------------------------------
