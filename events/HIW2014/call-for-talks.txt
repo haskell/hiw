@@ -1,0 +1,103 @@
+                        Call for Contributions
+               ACM SIGPLAN Haskell Implementors' Workshop
+
+    http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2014
+                Gothenburg, Sweden, 06 September, 2014
+
+                    Co-located with ICFP 2014
+               http://www.icfpconference.org/icfp2014/
+
+Important dates
+---------------
+Proposal Deadline:  Monday, 14 July, 2014 (midnight, anywhere on earth)
+Notification:               21 July  2014
+Workshop:           Saturday, 6 September 2014
+
+The 6th Haskell Implementors' Workshop is to be held alongside ICFP
+2014 this year in Gothenburg. It is a forum for people involved in the
+design and development of Haskell implementations, tools, libraries,
+and supporting infrastructure, to share their work and discuss future
+directions and collaborations with others.
+
+Talks and/or demos are proposed by submitting an abstract, and
+selected by a small program committee. There will be no published
+proceedings; the workshop will be informal and interactive, with a
+flexible timetable and plenty of room for ad-hoc discussion, demos,
+and impromptu short talks.
+
+Attendance figures clearly reflect the growth of the Haskell user
+community and a constant interest in implementation aspects.
+
+Scope and target audience
+-------------------------
+
+It is important to distinguish the Haskell Implementors' Workshop from
+the Haskell Symposium which is also co-located with ICFP 2014. The
+Haskell Symposium is for the publication of Haskell-related research. In
+contrast, the Haskell Implementors' Workshop will have no proceedings --
+although we will aim to make talk videos, slides and presented data
+available with the consent of the speakers.
+
+In the Haskell Implementors' Workshop, we hope to study the underlying
+technology. We want to bring together anyone interested in the
+nitty-gritty details behind turning plain-text source code into a
+deployed product. Having said that, members of the wider Haskell
+community are more than welcome to attend the workshop -- we need your
+feedback to keep the Haskell ecosystem thriving.
+
+The scope covers any of the following topics. There may be some topics
+that people feel we've missed, so by all means submit a proposal even if
+it doesn't fit exactly into one of these buckets:
+
+  * Compilation techniques
+  * Language features and extensions
+  * Type system implementation
+  * Concurrency and parallelism: language design and implementation
+  * Performance, optimisation and benchmarking
+  * Virtual machines and run-time systems
+  * Libraries and tools for development or deployment
+
+Talks
+-----
+
+At this stage we would like to invite proposals from potential speakers
+for talks and demonstrations. We are aiming for 20 minute talks with 10
+minutes for questions and changeovers. We want to hear from people
+writing compilers, tools, or libraries, people with cool ideas for
+directions in which we should take the platform, proposals for new
+features to be implemented, and half-baked crazy ideas. Please submit a
+talk title and abstract of no more than 300 words.
+
+Submissions should be made via EasyChair. The website is:
+  https://www.easychair.org/conferences/?conf=hiw2014
+
+If you don't have an account you can create one here:
+  https://www.easychair.org/account/signup.cgi 
+
+Because the submission is an abstract only, please click the "abstract
+only" button when you make your submission.  There is no need to
+attach a separate file.
+
+We will also have a lightning talks session which will be organised on
+the day. These talks will be 5-10 minutes, depending on available time.
+Suggested topics for lightning talks are to present a single idea, a
+work-in-progress project, a problem to intrigue and perplex Haskell
+implementors, or simply to ask for feedback and collaborators.
+
+Organisers
+----------
+
+  * Jost Berthold (co-chair)     (University of Copenhagen)
+  * Kevin Hammond                (University of St.Andrews)
+  * Gabriele Keller              (University of New South Wales)
+  * Paul Liu                     (Intel Labs)
+  * Rita Loogen                  (Philipps-Universitat Marburg)
+  * Geoffrey Mainland (co-chair) (Drexel University, Philadelphia)
+  * Carter Schonwald             (WellPosed Ltd)
+
+Contact
+-------
+
+  * hiw2014@easychair.org
+  * Jost Berthold <berthold at di.ku.dk>
+  * Geoffrey Mainland <mainland at cs.drexel.edu>
