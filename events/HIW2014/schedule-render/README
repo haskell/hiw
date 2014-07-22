@@ -1,0 +1,73 @@
+Scripts from ICFP local arrangements team, to render programme booklet
+and some html pages.
+
+Usage: 
+$> (python render.py latex hiw-schedule1.txt; echo '\end{document}') | pdflatex prelude.tex
+$> python render.py html hiw-schedule1.txt
+
+Full mail was:
+
+Dear workshop organizers,
+
+Below I am forwarding you a message from Björn von Sydow, our local organizer, who needs your input for the program booklet. Please send him your reply as soon as you can.
+
+Thanks,
+
+Tom
+
+Message from Björn:
+
+The conference program will be a booklet of 20 pages+cover in A5 format. The draft Table of contents is attached as toc.pdf. As you see from this, each workshop will get one page per day (i.e., for almost all workshops, one page).
+
+To produce the booklet, we will make use of Python scripts kindly provided by the ICFP 2012 organizers. To get a uniform layout, the ICFP program chair and each workshop organizer needs to provide one file of input per page in a simple syntax, from which LaTeX source will be generated.  In the attached file booklet.zip we provide a template file for each event (three files for ICFP and two for Haskell symposium).  We want you to complete these files and send them to me.
+
+The syntax for input files is a sequence of key/value pairs, each on one line, in the form
+
+Key:Value
+
+There is no documentation of the input syntax; a look at the file wgp2012.txt (from the Workshop on Generic Programming 2012) in the unzipped directory should hopefully be enough to illustrate it. Note that
+- only the start times for each session/talk/break are given; the only explicit end time is for the whole day.
+- sessions which contain talks will be rendered differently than "sessions" which do not (breaks of various kinds, and maybe discussions or poster sessions).
+- session chairs are optional.
+- sessions can be named, by topic or otherwise, rather than just numbered as in the templates.
+- as character encoding, UTF-8 should be used.
+
+In the templates we have used the following skeleton schedule, to be used by ICFP proper:
+
+09:00  - 10:00 session 1
+10:00 - 10:30 coffee break
+10:30 - 11:20 session 2
+11:20 - 11:40 break
+11:40 - 12:30 session 3
+12:30 - 14:00 lunch
+14:00 - 14:50 session 4
+14:50 - 15:10 break
+15:10 - 16:00 session 5
+16:00 - 16:30 tea break
+16:30 - 18:00 session 6
+
+[Tom: The two workshops on the Sunday have on a different schedule (which is accounted for in the template files wgp.txt and hope.txt). All other workshops have the same break schedule as ICFP itself.]
+
+The CUFP tutorial days will get a page each, but the input syntax does not cater well for three parallel sessions; I will collaborate with the tutorial organizers to produce those two pages. CUFP talks day should be fine and I hope that the organizers can complete the template file cufptalks.txt.
+
+In the zip file you can also find the Python scripts we will use to produce the booklet. So, after having finished your input file you may run the scripts (in Unix-ish environments) on your input file to check the result:
+
+> python render.py html yourfile.txt
+
+will write an html version of the event schedule to standard output.
+
+> python render.py latex yourfile.txt
+
+will write a latex version to standard output. If you save this to test.tex (hardwired filename; sorry!) and then run
+
+> pdflatex onepage.tex
+
+you will get onepage.pdf, which shows how your page will look in the booklet. Note that you will here get an A4 page; this will be scaled down to A5 later. Please accept also that what we provide is not production software; it is a collection of simple utilities that previous ICFP organizers let us use. Thus error messages are not always helpful, etc. If you run into problems, send us your input file and we will try to assist you.
+
+To get the booklet printed in time I would need all input files on Monday, August 18, at the latest. This is to print the booklet at the cheapest cost possible. I hope you will be able to provide input in time; obviously earlier submission (and/or info in advance about when input can be expected) will be helpful.  If you provide input early and send changes before August 18, these will be taken into account, so don't hesitate to send files even if some data are uncertain or missing (TBA). If you have the required input in some other format and are absolutely unable to find time to change it to our format, send what you have as early as possible and we will see what we can do.
+
+We will also try to use the same input files to produce input data for the mobile app Confero; see www.conferoapp.com.  We cannot promise that this will work out, but in any case, we would need to have input files earlier, so, again, please send us your input as soon as possible.
+
+Best regards and thank you for your help
+
+Björn

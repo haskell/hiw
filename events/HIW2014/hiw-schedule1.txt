@@ -1,0 +1,112 @@
+Event: Haskell Implementors Workshop
+Short: HIW
+Date: Sep 6, 2014
+
+Session: Status Reports
+Start: 09:00
+Talk: Welcome to HIW 2014
+Author: Jost Berthold
+Author: Geoffrey Mainland
+Start: 08:55
+
+-- Session: Status Reports
+-- Chair: 
+Talk: GHC
+Start: 09:00
+-- Author:
+-- Affiliation:
+Talk: Helium
+Start: 09:25
+-- Author:
+-- Affiliation:
+-- Talk: ??? or 3rd talk, each 20 minutes?
+-- Start: 09:40
+-- Author:
+-- Affiliation:
+
+Session: Coffee break
+Start: 10:00
+
+Session: Memory / Runtime Management
+Start: 10:30
+Talk: GHCJS
+Start: 10:30
+-- Author: 
+-- Affiliation:
+Talk: GUMSMP
+Start: 10:55
+-- Author: 
+-- Affiliation:
+
+Session: Break
+Start: 11:20
+
+Session: Pathways off the beaten track
+Start: 11:40
+Talk: CLaSH
+Start: 11:40
+-- Author: 
+-- Affiliation:
+Talk: Purescript
+Start: 12:00
+-- Author: 
+-- Affiliation:
+Talk: Lightning session 1 (2-3 talks)
+Start: 12:20
+
+Session: Lunch
+Start: 12:30
+
+Session: Types
+Start: 14:00
+Talk: Dependent Haskell
+Start: 14:00
+-- Author: 
+-- Affiliation:
+Talk: Partial Type Signatures
+Start: 14:25
+-- Author: 
+-- Affiliation:
+Talk: Hermit for type class laws?
+Start: 14:40
+-- Author: 
+-- Affiliation:
+
+Session: Break
+Start: 14:50
+
+Session: Managing Haskell modules
+Start: 15:10
+Talk: ToolCabal 
+Start: 15:10
+-- Author: 
+-- Affiliation:
+Talk: Backpack
+Start: 15:35
+-- Author: 
+-- Affiliation:
+
+Session: Tea break
+Start: 16:00
+
+Session: Distributed Haskell
+Start: 16:30
+Talk: HdpH implementation intricacies
+Start: 16:30
+-- Author: 
+-- Affiliation:
+Talk: GHC extension for Static
+Start: 16:55
+-- Author: 
+-- Affiliation:
+
+Session: The last session
+Start: 17:20
+Talk: Lightning session 2 (3-4 talks)
+Start: 17:20
+Talk: GHC developer tools ecosystem
+Start: 17:40
+-- Author: 
+-- Affiliation:
+
+End: 18:00 
