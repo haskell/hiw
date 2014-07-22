@@ -1,0 +1,23 @@
+Subject: Haskell Implementors WS: 2nd call, solicited talks
+
+Dear ______,
+
+We have less than 20 days left until the HIW submission deadline. I am going to send out a second call for contributions today (also attached here). Our web page is
+  http://www.haskell.org/haskellwiki/HaskellImplementorsWorkshop/2014
+
+So far there is only one proposal, the GHC status update by SPJ.
+As I heard, last year's HIW was not exactly overrun by proposals, so please help make HIW 2014 an interesting and exciting event by
+
+- distributing the call for papers (attached) widely
+- telling people about the workshop personally
+
+and especially by
+- encouraging people explicitly to propose talks about interesting work
+
+For encouraging and endorsing talks, I propose to follow the following process:
+If you invite a potential speaker to give a talk, the potential speaker should still submit an abstract through easychair. During the PC discussions (July 15-21), you will endorse the talk and the PC accepts it.
+
+Personally, I wish HIW to be an open and welcoming workshop, and would have no problem at all with accepting all talk proposals (except complete nonsense) if we can accomodate them. If we end up having problems with time, I am confident that we can find a way (and resolve any other issues) during the PC discussion.
+
+Best regards
+Jost
