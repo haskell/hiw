@@ -1,0 +1,103 @@
+Event: Haskell Implementors Workshop
+Short: HIW
+Date: Sep 6, 2014
+
+Session: Haskell Implementors' Workshop 2014
+Start: 08:50
+Talk: Welcome to HIW 2014
+Author: Jost Berthold
+Author: Geoffrey Mainland
+Start: 08:50
+
+Session: Haskell in a different flavour
+Start: 09:00
+-- Chair: 
+Talk: CLaSH: Compiling circuit descriptions
+Start: 09:00
+-- Author:
+-- Affiliation:
+Talk: PureScript (short talk)
+Start: 09:25
+-- Author:
+-- Affiliation:
+Talk: The Past, Present and Future of the Programmer-friendly Helium Compiler
+Start: 09:45
+-- Author:
+-- Affiliation:
+
+Session: Coffee break
+Start: 10:10
+
+
+Session: Memory / runtime management
+Start: 10:30
+Talk: GUMSMP: a multilevel parallel Haskell implementation
+Start: 10:30
+-- Author: 
+-- Affiliation:
+Talk: Managing a Haskell heap in Javascript
+Start: 10:55
+-- Author: 
+-- Affiliation:
+
+Session: Break
+Start: 11:20
+
+Session: GHC
+Start: 11:40
+Talk: GHC status update
+Start: 11:40
+-- Author: 
+-- Affiliation:
+Talk: GHC's developer tools ecosystem (contributing to GHC)
+Start: 12:05
+
+Session: Lunch
+Start: 12:30
+
+Session: Haskell modules
+Start: 14:00
+Talk: Extending Cabal with Plugins, Preprocessors and Multi-target Compilers (short talk)
+Start: 14:00
+-- Author: 
+-- Affiliation:
+Talk: Implementing Backpack in GHC (short talk)
+Start: 14:20
+-- Author: 
+-- Affiliation:
+Talk: Lightning talks I (1-2 talks)
+Start: 14:40
+
+Session: Break
+Start: 14:50
+
+Session: Advanced types
+Start: 15:10
+Talk: Dependent Haskell
+Start: 15:10
+-- Author: 
+-- Affiliation:
+Talk: Partial Type Signatures (short talk)
+Start: 15:35
+-- Author: 
+-- Affiliation:
+Talk: Lightning talks ? (1 talk)
+Start: 15:55
+
+Session: Tea break
+Start: 16:00
+
+Session: Distributed Haskell
+Start: 16:30
+Talk: The implementation of the HdpH DSLs: Details and Difficulties (short talk)
+Start: 16:30
+-- Author: 
+-- Affiliation:
+Talk: A GHC language extension for static values (short talk)
+Start: 16:55
+-- Author: 
+-- Affiliation:
+Talk: Lightning talks II (remaining talks)
+Start: 17:15
+
+End: 18:00 
