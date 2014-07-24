@@ -1,0 +1,32 @@
+/* CSS for programme table */
+
+table#sessions {
+    width:800px;
+    }
+
+.times{
+    width:110px;
+    }
+.spacer {
+    margin-bottom: 20px;
+    }
+
+.session {
+    background-color: #E5E5E5;
+    }
+.hastalks {
+    background-color: #C0C0C0;
+    }
+.stitle {
+    font-weight:bold;
+    width:440px
+    }
+.ttitle {
+    text-align:left;
+   }
+
+.authors {
+    text-align: left;
+    font-style: italic;
+}
+
