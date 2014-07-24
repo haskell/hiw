@@ -1,7 +1,7 @@
 Accepted for a long talk:
 -------------------------
 
-Dear [*FIRST NAME*],
+Dear [*FIRST-NAME*],
 
 We are pleased to inform you that your submission "[*TITLE*]" has been selected as a long talk for the 2014 Haskell Implementors' Workshop.
 Please plan to give a 20 minute talk with 5 minutes for questions.
@@ -9,12 +9,12 @@ Please plan to give a 20 minute talk with 5 minutes for questions.
 Best regards, and looking forward to your talk in Gothenburg!
 Jost and Geoff
 
-Accepted for a long talk:
+Accepted for a short talk:
 -------------------------
 
-Dear [*FIRST NAME*],
+Dear [*FIRST-NAME*],
 
-We are pleased to inform you that your submission "[*TITLE*] has been selected as a short talk for the 2014 Haskell Implementors' Workshop.
+We are pleased to inform you that your submission "[*TITLE*]" has been selected as a short talk for the 2014 Haskell Implementors' Workshop.
 
 There were a large number of submissions this year, so we have opted for several shorter time slots to maximize the number of accepted submissions. 
 Please plan to give a 15 minute talk with 5 minutes for questions.
@@ -24,7 +24,7 @@ Jost and Geoff
 
 Not accepted:
 -------------
-Dear [*FIRST NAME*],
+Dear [*FIRST-NAME*],
 
 We regret to inform you that your talk proposal "[*TITLE*]" has not been selected for this year's Haskell Implementors' Workshop.
 There were a large number of excellent submissions this year, and unfortunately we could not accept all of them.
