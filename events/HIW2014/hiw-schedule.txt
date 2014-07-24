@@ -20,13 +20,13 @@ Talk: PureScript (short talk)
 Start: 09:25
 -- Author:
 -- Affiliation:
-Talk: The Past, Present and Future of the Programmer-friendly Helium Compiler
+Talk: The Past, Present and Future of the Programmer-friendly Helium Compiler (short talk)
 Start: 09:45
 -- Author:
 -- Affiliation:
 
 Session: Coffee break
-Start: 10:10
+Start: 10:05
 
 
 Session: Memory / runtime management
