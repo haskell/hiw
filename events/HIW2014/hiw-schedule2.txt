@@ -65,7 +65,7 @@ Talk: Implementing Backpack in GHC (short talk)
 Start: 14:20
 -- Author: 
 -- Affiliation:
-Talk: Lightning talks I (1-2 talks)
+Talk: Lightning talks I (2-3 talks)
 Start: 14:40
 
 Session: Break
@@ -77,19 +77,17 @@ Talk: Dependent Haskell
 Start: 15:10
 -- Author: 
 -- Affiliation:
-Talk: Partial Type Signatures (short talk)
+Talk: Partial Type Signatures
 Start: 15:35
 -- Author: 
 -- Affiliation:
-Talk: Lightning talks ? (1 talk)
-Start: 15:55
 
 Session: Tea break
 Start: 16:00
 
 Session: Distributed Haskell
 Start: 16:30
-Talk: The implementation of the HdpH DSLs: Details and Difficulties (short talk)
+Talk: The implementation of the HdpH DSLs: Details and Difficulties
 Start: 16:30
 -- Author: 
 -- Affiliation:
