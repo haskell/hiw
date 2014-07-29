@@ -1,0 +1,98 @@
+Event: Workshop on Generic Programming
+Short: WGP
+Date: Sep 9, 2012
+
+Session: Welcome
+Start: 09:00	 
+
+
+Session: Session 1
+Chair: Andres Löh
+Start: 09:10
+
+Talk: A Pattern for Almost Homomorphic Functions
+Start: 09:10
+Author: Nicolas Frisby
+Author: Andy Gill
+Author: Perry Alexander
+Affiliation: University of Kansas
+
+
+Talk: The Right Kind of Generic Programming
+Start: 09:50
+Author: José Pedro Magalhães. 
+Affiliation: University of Oxford
+
+
+Session: Break
+Start: 10:30
+
+
+Session: Session 2
+Chair: Ronald Garcia
+Start: 11:00
+
+Talk: Expressing Multi-Way Data-Flow Constraint Systems as a Commutative Monoid Makes Many of their Properties Obvious
+Start: 11:00
+Author: Jaakko Järvi
+Affiliation: Texas A&M University
+Author: Magne Haveraaen
+Affiliation: University of Bergen
+Author: John Freeman
+Affiliation: Texas A&M University
+Author: Mat Marcus
+Affiliation: Canyonlands Software Design
+
+
+Talk: Using Functional Languages to Facilitate C++ Metaprogramming
+Start: 11:40
+Author: Seyed Hossein Haeri
+Author: Sibylle Schupp
+Author: Jonathan Hüser
+Affiliation: Hamburg University of Technology
+
+
+Session: Lunch
+Start: 12:20
+
+
+Session: Session 3
+Chair: Neelakantan Krishnaswami
+Start: 14:00
+
+Talk: Embedding F
+Start: 14:00
+Author: Sam Lindley
+Affiliation: University of Edinburgh
+
+Talk: Generic conversions of abstract syntax representations
+Start: 14:40
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+
+
+Session: Break
+Start: 15:20
+
+
+Session: Session 4
+Chair: Jacques Garrigue
+Start: 16:00
+
+Talk: Sorting with Bialgebras and Distributive Laws
+Start: 16:00
+Author: Ralf Hinze
+Author: Daniel James
+Author: Thomas Harper
+Author: Nicolas Wu
+Author: José Pedro Magalhães
+Affiliation: University of Oxford
+
+
+Session: Discussion: Open Problems in Generic Programming
+Start: 16:40
+
+
+End: 17:30	 

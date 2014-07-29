@@ -1,0 +1,46 @@
+Event: Workshop on Functional High-Performance Computing
+Short: FHPC
+Date: Sep 4, 2014
+
+Session: Session 1
+-- Chair:    this is optional; for nice appearence, all or no talk-carrying sessions should have chairs
+Start: 09:00
+
+-- A session which has talks is rendered with a special header
+-- 
+-- Talk: 
+-- Start: 09:00
+-- Author: 
+-- Affiliation:
+ 
+Session: Coffee break
+Start: 10:00
+
+Session: Session 2
+Start: 10:30
+
+Session: Break
+Start: 11:20
+
+Session: Session 3
+Start: 11:40
+
+Session: Lunch
+Start: 12:30
+
+Session: Session 4
+Start: 14:00
+
+Session: Break
+Start: 14:50
+
+Session: Session 5
+Start: 15:10
+
+Session: Tea break
+Start: 16:00
+
+Session: Session 6
+Start: 16:30
+
+End: 18:00 

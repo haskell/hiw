@@ -1,0 +1,114 @@
+Event: ICFP (Day 1)
+Date: Sep 1, 2014
+
+Session: Session 1
+-- Chair:    this is optional; for nice appearence, all or no talk-carrying sessions should have chairs
+Start: 09:00
+Chair: Albert Einstein
+
+Talk: Generic conversions of abstract syntax representations
+Start: 09:00
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+
+-- A session which has talks is rendered with a special header
+-- 
+-- Talk: 
+-- Start: 09:00
+-- Author: 
+-- Affiliation:
+
+Session: Coffee break
+Start: 10:00
+
+Session: Session 2
+Start: 10:30
+Talk: Generic conversions of abstract syntax representations
+Start: 10:30
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+Talk: Generic conversions of abstract syntax representations
+Start: 10:55
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+
+Session: Break
+Start: 11:20
+
+Session: Session 3
+Start: 11:40
+Talk: Generic conversions of abstract syntax representations
+Start: 11:40
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+Talk: Generic conversions of abstract syntax representations
+Start: 12:05
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+
+Session: Lunch
+Start: 12:30
+
+Session: Session 4
+Start: 14:00
+Talk: Generic conversions of abstract syntax representations
+Start: 14:00
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+Talk: Generic conversions of abstract syntax representations
+Start: 14:25
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+
+Session: Break
+Start: 14:50
+
+Session: Session 5
+Start: 15:10
+Talk: Generic conversions of abstract syntax representations
+Start: 15:10
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+Talk: Generic conversions of abstract syntax representations
+Start: 15:35
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+
+Session: Tea break
+Start: 16:00
+
+Session: Session 6
+Start: 16:30
+Talk: Generic conversions of abstract syntax representations
+Start: 16:30
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+Talk: Generic conversions of abstract syntax representations
+Start: 16:55
+Author: Steven Keuchel
+Affiliation: Ghent University
+Author: Johan T. Jeuring
+Affiliation: Utrecht University
+Talk: Program chair's report
+Start: 17:20
+End: 17:45

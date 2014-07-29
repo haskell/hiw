@@ -1,0 +1,51 @@
+\documentclass[a4paper,fontsize=13pt]{scrbook}
+%[a4paper,12pt]{book}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+
+\usepackage{geometry}
+\usepackage{fancyhdr}
+
+\usepackage{xcolor,array,colortbl}
+
+% use sans-serif fonts (manually)
+\renewcommand{\familydefault}{\sfdefault}
+
+% stretch the pages
+%\geometry{papersize={21cm,29.7cm}}
+
+%%%% tweak margins
+\textwidth17.5cm
+\textheight24.5cm
+\evensidemargin-1cm
+\oddsidemargin-0.5cm
+\topmargin-1.4cm
+
+\parindent0em
+
+\newcommand{\horiz}{{\rule{\textwidth}{.5pt}}}
+
+\renewcommand{\headrulewidth}{0.5pt}
+\pagestyle{fancy}
+\fancyfoot[RCL]{}
+\fancyhead[L]{}
+\fancyhead[R]{}
+\fancyfoot[C]{{\bf \large -- \thepage{} --}}
+
+\definecolor{Gray}{gray}{0.85}
+\newcolumntype{g}{>{\columncolor{Gray}}c}
+
+\begin{document}
+
+\pagestyle{fancy}
+\fancyfoot[C]{{\bf \large -- \thepage{} --}}
+
+\newcommand{\talkwidth}{15.8cm}
+\newcommand{\sessionwidth}{9cm}
+\newcommand{\chairwidth}{3cm}
+\newcommand{\sessionsep}{1ex}   % between sessions
+
+\input{test.tex}
+\end{document}
