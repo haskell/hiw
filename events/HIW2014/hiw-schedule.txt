@@ -16,32 +16,27 @@ Talk: CLaSH: Compiling circuit descriptions
 Start: 09:00
 -- Author:
 -- Affiliation:
-Talk: PureScript (short talk)
-Start: 09:25
--- Author:
--- Affiliation:
 Talk: The Past, Present and Future of the Programmer-friendly Helium Compiler (short talk)
-Start: 09:45
+Start: 09:25
 -- Author:
 -- Affiliation:
 
 Session: Coffee break
-Start: 10:05
-
+Start: 9:45
 
 Session: Memory / runtime management
-Start: 10:30
+Start: 10:15
 Talk: GUMSMP: a multilevel parallel Haskell implementation
-Start: 10:30
+Start: 10:15
 -- Author: 
 -- Affiliation:
 Talk: Managing a Haskell heap in Javascript
-Start: 10:55
+Start: 10:40
 -- Author: 
 -- Affiliation:
 
 Session: Break
-Start: 11:20
+Start: 11:05
 
 Session: GHC
 Start: 11:40
@@ -55,47 +50,49 @@ Start: 12:05
 Session: Lunch
 Start: 12:30
 
-Session: Haskell modules
+Session: Distributed Haskell
 Start: 14:00
-Talk: Extending Cabal with Plugins, Preprocessors and Multi-target Compilers (short talk)
+Talk: The implementation of the HdpH DSLs: Details and Difficulties
 Start: 14:00
 -- Author: 
 -- Affiliation:
-Talk: Implementing Backpack in GHC (short talk)
-Start: 14:20
+Talk: A GHC language extension for static values (short talk)
+Start: 14:25
 -- Author: 
 -- Affiliation:
-Talk: Lightning talks I (2-3 talks)
-Start: 14:40
+
+Session: Lightning talks I
+Start: 14:45
 
 Session: Break
-Start: 14:50
+Start: 15:05
 
 Session: Advanced types
-Start: 15:10
+Start: 15:25
 Talk: Dependent Haskell
-Start: 15:10
+Start: 15:25
 -- Author: 
 -- Affiliation:
 Talk: Partial Type Signatures
-Start: 15:35
+Start: 15:50
 -- Author: 
 -- Affiliation:
 
 Session: Tea break
-Start: 16:00
+Start: 16:15
 
-Session: Distributed Haskell
-Start: 16:30
-Talk: The implementation of the HdpH DSLs: Details and Difficulties
-Start: 16:30
+Session: Haskell modules
+Start: 16:45
+Talk: Extending Cabal with Plugins, Preprocessors and Multi-target Compilers (short talk)
+Start: 16:45
 -- Author: 
 -- Affiliation:
-Talk: A GHC language extension for static values (short talk)
-Start: 16:55
+Talk: Implementing Backpack in GHC (short talk)
+Start: 17:05
 -- Author: 
 -- Affiliation:
-Talk: Lightning talks II (remaining talks)
-Start: 17:15
+
+Session: Lightning talks II
+Start: 17:25
 
 End: 18:00 
