@@ -1,3 +1,6 @@
+-- HIW 2014 schedule
+-- Also see http://www.haskell.org/haskellwiki/HaskellImplementorsWorkshop/2014
+
 Event: Haskell Implementors Workshop
 Short: HIW
 Date: Sep 6, 2014
@@ -13,13 +16,15 @@ Session: Haskell in a different flavour
 Start: 09:15
 -- Chair: 
 Talk: CLaSH: Compiling circuit descriptions
+Author: Christiaan Baaij
+Affiliation: University of Twente
 Start: 09:15
--- Author:
--- Affiliation:
 Talk: The Past, Present and Future of the Programmer-friendly Helium Compiler (short talk)
 Start: 09:40
--- Author:
--- Affiliation:
+Author: Jurriaan Hage
+Affiliation: Universiteit Utrecht
+Author: Bastiaan Heeren
+Affiliation: Open University NL
 
 Session: Coffee break
 Start: 10:00
@@ -28,12 +33,16 @@ Session: Memory / runtime management
 Start: 10:30
 Talk: GUMSMP: a multilevel parallel Haskell implementation
 Start: 10:30
--- Author: 
--- Affiliation:
+Author: Malak Aljabri
+Affiliation: University of Glasgow
+Author: Hans-Wolfgang Loidl
+Affiliation: Heriot-Watt University
+Author: Phil Trinder
+Affiliation: University of Glasgow
 Talk: Managing a Haskell heap in Javascript
 Start: 10:55
--- Author: 
--- Affiliation:
+Author: Luite Stegeman
+-- Affiliation: none
 
 Session: Break
 Start: 11:20
@@ -42,10 +51,12 @@ Session: GHC
 Start: 11:40
 Talk: GHC status update
 Start: 11:40
--- Author: 
--- Affiliation:
+Author: Simon Peyton-Jones
+Affiliation: Microsoft Research
 Talk: GHC's developer tools ecosystem (contributing to GHC)
 Start: 12:05
+Author: Joachim Breitner
+Affiliation: Karlsruhe Institute of Technology
 
 Session: Lunch
 Start: 12:30
@@ -54,26 +65,38 @@ Session: Distributed Haskell
 Start: 14:00
 Talk: The implementation of the HdpH DSLs: Details and Difficulties
 Start: 14:00
--- Author: 
--- Affiliation:
+Author: Patrick	Maier
+Affiliation: University of Glasgow
+Author: Robert Stewart
+Affiliation: Heriot-Watt University
+Author: Phil Trinder
+Affiliation: University of Glasgow
 Talk: A GHC language extension for static values (short talk)
 Start: 14:25
--- Author: 
--- Affiliation:
+Author: Mathieu Boespflug
+Author: Facundo Domínguez
+Affiliation: Tweag I/O
+
+Session: Lightning talks I
+Start: 14:45
 
 Session: Break
-Start: 14:50
+Start: 15:00
 
 Session: Advanced types
 Start: 15:10
 Talk: Dependent Haskell
 Start: 15:10
--- Author: 
--- Affiliation:
+Author: Richard Eisenberg
+Affiliation: University of Pennsylvania
 Talk: Partial Type Signatures
 Start: 15:35
--- Author: 
--- Affiliation:
+Author: Thomas Winant
+Author: Dominique Devriese
+Author: Frank Piessens
+Affiliation: KU Leuven
+Author: Tom Schrijvers
+Affiliation: Ghent University
 
 Session: Tea break
 Start: 16:00
@@ -82,14 +105,14 @@ Session: Haskell modules
 Start: 16:30
 Talk: Extending Cabal with Plugins, Preprocessors and Multi-target Compilers (short talk)
 Start: 16:30
--- Author: 
--- Affiliation:
+Author: Tibor Bremer
+Affiliation: Universiteit Utrecht
 Talk: Implementing Backpack in GHC (short talk)
 Start: 16:50
--- Author: 
--- Affiliation:
+Author: Edward Yang
+Affiliation: Stanford University
 
-Session: Lightning talks
+Session: Lightning talks II
 Start: 17:10
 
 End: 18:00 
