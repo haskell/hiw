@@ -3,40 +3,40 @@ Short: HIW
 Date: Sep 6, 2014
 
 Session: Haskell Implementors' Workshop 2014
-Start: 08:50
+Start: 09:00
 Talk: Welcome to HIW 2014
 Author: Jost Berthold
 Author: Geoffrey Mainland
-Start: 08:50
+Start: 09:00
 
 Session: Haskell in a different flavour
-Start: 09:00
+Start: 09:15
 -- Chair: 
 Talk: CLaSH: Compiling circuit descriptions
-Start: 09:00
+Start: 09:15
 -- Author:
 -- Affiliation:
 Talk: The Past, Present and Future of the Programmer-friendly Helium Compiler (short talk)
-Start: 09:25
+Start: 09:40
 -- Author:
 -- Affiliation:
 
 Session: Coffee break
-Start: 9:45
+Start: 10:00
 
 Session: Memory / runtime management
-Start: 10:15
+Start: 10:30
 Talk: GUMSMP: a multilevel parallel Haskell implementation
-Start: 10:15
+Start: 10:30
 -- Author: 
 -- Affiliation:
 Talk: Managing a Haskell heap in Javascript
-Start: 10:40
+Start: 10:55
 -- Author: 
 -- Affiliation:
 
 Session: Break
-Start: 11:05
+Start: 11:20
 
 Session: GHC
 Start: 11:40
@@ -61,38 +61,35 @@ Start: 14:25
 -- Author: 
 -- Affiliation:
 
-Session: Lightning talks I
-Start: 14:45
-
 Session: Break
-Start: 15:05
+Start: 14:50
 
 Session: Advanced types
-Start: 15:25
+Start: 15:10
 Talk: Dependent Haskell
-Start: 15:25
+Start: 15:10
 -- Author: 
 -- Affiliation:
 Talk: Partial Type Signatures
-Start: 15:50
+Start: 15:35
 -- Author: 
 -- Affiliation:
 
 Session: Tea break
-Start: 16:15
+Start: 16:00
 
 Session: Haskell modules
-Start: 16:45
+Start: 16:30
 Talk: Extending Cabal with Plugins, Preprocessors and Multi-target Compilers (short talk)
-Start: 16:45
+Start: 16:30
 -- Author: 
 -- Affiliation:
 Talk: Implementing Backpack in GHC (short talk)
-Start: 17:05
+Start: 16:50
 -- Author: 
 -- Affiliation:
 
-Session: Lightning talks II
-Start: 17:25
+Session: Lightning talks
+Start: 17:10
 
 End: 18:00 
