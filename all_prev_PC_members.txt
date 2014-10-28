@@ -44,5 +44,13 @@
   * Thomas Schilling (University of Kent)
   * Geoff Mainland   (Drexel University)
 
+---2014---
 
+  * Jost Berthold - co-chair (University of Copenhagen)
+  * Kevin Hammond (University of St.Andrews)
+  * Gabriele Keller (University of New South Wales)
+  * Paul Liu (Intel Labs)
+  * Rita Loogen (Philipps-Universitat Marburg)
+  * Geoffrey Mainland - co-chair (Drexel University, Philadelphia)
+  * Carter Schonwald (WellPosed Ltd)
 

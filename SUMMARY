@@ -101,9 +101,22 @@ http://www.sigplan.org/DiversityPolicy.htm
 -- History ----------------------------------------------------------------------------------------
 -- These history records have the same format as that required by the ICFP workshop form.
 
+-- HIW 2014
+   Name                      : Haskell Implementors Workshop (HIW2014)
+   Dates                     : 6 September 2014
+   Location                  : Gothenburg, SE
+   Organizers                : Jost Berthold and Geoffrey Mainland
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2014
+   Number of submissions     : 15
+   Number of accepted papers : 12 x 20/25 min session + 2 lightning talks scheduled on the day
+   Number of attendees       : 78 (headcount 96 in the afternoon)
+   Registration fee          : $150 ACM, $200 non-ACM, $100 student (ICFP workshop day pass)
+                               late registrants paid $250/$200/$150 USD.
+   Budget information        : handled by ACM, co-located with ICFP
+
 -- HIW 2013
    Name                      : Haskell Implementors Workshop (HIW2013)
-   Dates                     : 22 September 2012
+   Dates                     : 22 September 2013
    Location                  : Boston, USA
    Organizers                : Ryan Newton
    Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2012
