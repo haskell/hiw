@@ -134,7 +134,7 @@ PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 EXPECTED NUMBER OF ATTENDEES:
 
   Based on an average attendance over the last three years, we expect
-  around 60 people to attend.
+  around 70 people to attend.
   Participants often choose to attend part of HIW while attending part
   of other workshops as well (workshops synchronise their schedules
   for this purpose).
@@ -166,7 +166,7 @@ PREVIOUS VERSIONS OF THE WORKSHOP:
    Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2014
    Number of submissions     :
    Number of accepted papers :
-   Number of attendees       :
+   Number of attendees       : 78
    Registration fee          :
    Budget information        : handled by ACM, co-located with ICFP
 
