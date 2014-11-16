@@ -88,27 +88,16 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
     people plus the organiser to make a PC of six in total (while
     maintaining balance between academics and industrial members).
 
-    Edward Kmett, 	S&P Capital IQ
-    Christopher Brown, 	University of St.Andrews
-
-    (Note that this list must be reviewed by SIGPLAN, which includes
-    checking for broad representation.
-
-      http://www.sigplan.org/DiversityPolicy.htm 
-
-    Since SIGPLAN does sometimes request changes, PC invitations
-    should wait until the workshop is approved.  Thus, you may
-    wish to include alternate names, in case not all invitations
-    are accepted.
-
-    The ICFP Workshop Chairs will pass this proposed PC on to 
-    SIGPLAN, and report back if there are any concerns.)
-
-
-OTHER POTENTIAL ATTENDEES:
-
-   (If desired; mainly for new workshops, as evidence of interest in
-   the topic.)
+    Edward Kmett, 	 S&P Capital IQ
+    Christopher Brown, 	 University of St.Andrews
+    Hans-Wolfgang Loidl, Heriot-Watt University
+    Richard Eisenberg,	 University of Pennsylvania
+    Björn Buckwalter,	 SAT Consulting
+    Niko Matsakis,	 Mozilla
+    Malcolm Wallace,     Standard Chartered
+    Trevor L. McDonell,	 Indiana University
+    Deian Stefan,	 Stanford University
+    Evan Czaplicki,	 Prezi
 
 PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
 
@@ -164,10 +153,10 @@ PREVIOUS VERSIONS OF THE WORKSHOP:
    Location                  : Gothenburg, Sweden
    Organizers                : Jost Berthold
    Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2014
-   Number of submissions     :
-   Number of accepted papers :
+   Number of submissions     : 15
+   Number of accepted papers : 12 x 30 min session + 10 lightning talks scheduled on the day
    Number of attendees       : 78
-   Registration fee          :
+   Registration fee          : ICFP workshop day pass (standard price $165)
    Budget information        : handled by ACM, co-located with ICFP
 
    Name                      : Haskell Implementors Workshop (HIW2013)
