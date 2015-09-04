@@ -1,0 +1,23 @@
+Haskell Implementers Workshop 2015
+
+Session 9:00 - 10:00 Chair: Josef Svenningsson
+Welcome: 5 min
+Simon PJ State of the GHC 30min
+The state of GHCJS 25min
+
+Session 10:30 - 12:00 Chair: Richard Eisenberg
+API Annotations - enabler for source code round tripping / modification
+ 30min
+Using hardware transactions in the GHC runtime system 30min
+Rebooting supercompilation for GHC 30min
+
+Session 14:00 - 15:30 Chair: Edward Kmett
+Securing our package distribution system 25min
+Introduction to the 'stack' build tool 25min
+"Look Ma, No Signatures!" Separate modular development without interfaces 25min
+Haskell.org Infrastructure Status Update 15min
+
+Session 16:00 - 17:30 Chair: Alejandro Russo
+A Pretty-Printer that Says what it Means 30min
+Levity Polymorphism in Dependent Haskell 30min	
+Lightning talks 30min

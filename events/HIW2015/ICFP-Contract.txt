@@ -1,0 +1,77 @@
+Information on Benefits and Costs for Workshops Co-Located with ICFP
+
+This document lays out what services organizers of workshops co-located with ICFP can expect to receive from ICFP and what obligations workshop organizers incur in turn.  These services and costs are intimately connected with the overall finances for ICFP, and so some context is useful.  Specifically, in working out the budgets for co-located workshops, we need to balance a number of factors:
+ 1. We would like each workshop to have the financial resources to put on the best program the organizers can arrange. 
+ 2. We would like all events on the same day to cost the same amount of money so people can freely float from one event to another without any cost implications.
+ 3. We would like the cost for each workshop to be as low as possible while covering the cost of workshop attendees.
+ 4. We would like to make it as simple as possible to arrange a workshop co-located with ICFP by providing a number of shared services. 
+ 5. Different communities have different standards about whether speakers are compensated and how high registration fees can be.
+These factors conflict with each other, so some compromise is necessary.
+
+ICFP provides to co-located workshops the following services:
+ 1. Hosted HotCRP Website for managing the submission process
+ 2. Proceedings Management, including options to print proceedings and to post proceedings on the conference website a week in advance of the meeting (if noted in the call for papers of the workshop).
+ 3. Registration and Conference Management Services
+ 4. Inclusion in ICFP program booklet and Confero mobile app
+ 5. Breakfast, lunch, and breaks
+ 6. A/V support during event
+ 7. Per-Workshop Fund for workshop-specific expenses
+ 8. Access to ICFP-wide Workshop Support Fund for unusual expenses
+ 9. Industrial Reception
+
+We explain each of these in more detail in the rest of the message.
+
+Hosted HotCRP Website
+*********************
+Each workshop can choose to use a hosted version of the HotCRP paper submission service to manage their submission process at no cost to the workshop.  To use the service and configure the submission site, the workshop program chair simply needs to go to the configuration website: 
+   https://sigplan.hotcrp.com/index 
+and fill in the requested information.  The workshop organizer should prefix the name of the workshop with “icfp-“ so that HotCRP knows the workshop should be included in the ICFP billing.   For example, the Haskell Symposium might use the conference ID icfp-haskellsymposium15.  The cost to ICFP is $200 per co-located workshop.
+
+Proceedings Management
+**********************
+Conference Publishing Services (CPS) will be managing proceedings for all co-located workshops with formal proceedings.  In the past, Sheridan filled this role, but we switched to CPS in 2015 because they provided better service at a comparable price.  Workshop program chairs should work with the ICFP program chair, who is serving as the Conference Proceedings Chair, to get the necessary instructions from CPS and to supply the necessary information to CPS.  Camera-ready copies of workshop papers will be due to CPS no later than July 23.  CPS in return will have web-ready versions of the proceedings available by August 18.    By default, ICFP and co-located workshops will not have printed proceedings.  Instead, all proceedings will be available for download from the web.  Each workshop should include in its Call for Papers language that indicates the papers will appear on the conference website up to two weeks before the conference date (see the ICFP Call for Papers for an example) so that we are legally permitted to post the papers pre-conference.  The cost to ICFP is $225 per co-located workshop with formal proceedings.
+
+Registration and Conference Management Services
+***********************************************
+ICFP will manage the registration process for all-located conferences, including collecting registration fees, printing name tags, and providing a check-in desk.   ICFP also provides conference management services, which include working with the hotel to negotiate food and beverage prices, A/V prices, room allocations, etc. The cost for these services is pro-rated based on the number of participants and subsidized by SIGPLAN.    The cost to ICFP is roughly $5000, of which $2000 is attributed to the workshops.
+
+ICFP Program Booklet
+********************
+ICFP will organize and print a booklet listing the full program of ICFP and all co-located events.  Workshop Chairs should work with the ICFP Program Chair and General Chair to gather the necessary information for the booklet in a timely fashion.  The cost for this service is not broken down on a per-workshop basis.  The total cost to ICFP for the booklet is budgeted for $2,250.
+
+Breakfast, lunch, and breaks
+****************************
+Workshop participants will receive Continental Breakfast, Lunch, and Breaks for each day of the workshop.  The cost of the food is calculated on a per-person per-day basis.  In the budget, the cost is attributed to individual workshops on the basis of the average head count at the previous year’s event.  New workshops are treated in the same way as the workshop from the previous year with the lowest attendance.  For Vancouver, the cost per person per day for Breakfast, Lunch, and Breaks (including associated service charges and taxes) is currently estimated at $87.33. This cost will fluctuate right up until the event as it is one of the places where we can control spending in response to fund raising and registration figures.
+
+A/V support
+***********
+ICFP will provide A/V support for each workshop, including projectors and microphones.  Workshops with 50 or more attendees will receive a microphone for the speaker.  Workshops with more than 70 attendees will receive a second microphone for audience questions.  Workshops with special concerns about A/V should contact the ICFP Workshop Chairs about any necessary arrangements.  The cost for projectors and microphones is approximately $1000/$1250/$1500 depending on whether the workshop uses zero, one, or two microphones, respectively.
+
+ICFP 2014 purchased equipment to video events, which is run by volunteers.  We do not currently have enough equipment to record all simultaneous events, so we will need to figure out how to provide the best service with the available equipment.  
+
+
+Per-Workshop Fund
+*****************
+The Per-Workshop Fund is intended to allow co-located workshop chairs flexibility in allocating funds to support their workshops.  For example, these funds can be used to pay for one or more invited speakers or to pay for an organizing committee dinner.  The amount of the Fund varies from workshop to workshop depending upon the actual attendance at the *previous year’s workshop.  The formula for the fund is that a workshop receives $2000 and 1 complimentary workshop registration per 100 attendees per day*.  The money is prorated based on attendance; the complimentary registration rounds up. For example, a one-day workshop with 50 people would receive $1000 and 1 complementary workshop registration.  A two-day workshop with 150 people would receive $6000 and 4 complimentary two-day registrations.   New workshops receive the same allocation as the smallest workshop from the previous year.  
+
+ICFP-Wide Workshop Support Fund
+*******************************
+To address unexpected events or unusual circumstances, there is an additional Workshop Support Fund, which is shared across all co-located workshops.  Any workshop can apply for funds from the Support Fund to cover expenses related to invited speakers or other program elements by making a request of the ICFP General Chair.  Factors that go into allocating these funds include:
+  1. timeliness of the request (once the money is spent, no more funds are available)
+  2. the value to the overall ICFP program of program element to be supported by the request
+The amount of available funds will depend upon the extent of funds raised and the overall registration figures for the event.
+
+Industrial Reception
+********************
+All workshop attendees are invited to attend the Industrial Reception, regardless of which day the workshop takes place.  The cost of the workshop is currently $30 per person, but as with food costs, the actual cost will vary in response to the overall financial health of ICFP.  Funds from the Industrial Partners program go towards covering the cost of this reception as well as other portions of ICFP and co-located events. 
+
+Costs
+*****
+To support this level of service, the proposed per-day workshop registration fees are:
+	ACM Early	Non-Mbr Early	Student Early	ACM Late	Non-Mbr Late	Student Late
+Reg $	$165.00		$220.00		$110.00		$220.00		$275.00		$165.00	
+Count	373		89		115		75		55		7
+The counts are the registration figures from ICFP in Gothenburg.  The fees are what is currently proposed for ICFP in Vancouver in 2015.  These fees can go up or down depending upon a number of factors until registration for the conference opens in the Spring.  
+
+
+
