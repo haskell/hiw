@@ -1,0 +1,28 @@
+Haskell Implementers Workshop 2016
+
+Session 9:15-10:15 "The State of GHC"
+9:15 State of GHC (Simon Peyton Jones)
+9:45 Contributing to GHC (Ben Gamari)
+
+Session 10:35-11:25 "Pluggability and Modularity"
+10:35 More powerful GHC Plugins (Moritz Angermann)
+11:00 Backpack to Work: Towards Backpack in Practice (Edward Z. Yang)
+
+Session 11:45-12:35 "Types and Effects"
+11:45 A Dependent Haskell Triptych (Richard A. Eisenberg)
+12:10 Automatically Escaping Monads (Ben Lippmeier)
+
+Session 14:00-14:50 "The Engineering of GHC"
+14:00 Pita: Tools for making GHC fast again (Ben Gamari)
+14:25 GHC Determinism (Bartosz Nitka)
+
+Session 15:20-16:10 "Backends for GHC"
+15:20 Remote GHCi (Simon Marlow)
+15:45 GHCVM - A JVM Backend for GHC (Rahul Muttineni)
+
+Session 16:40-18:00 "Trees and Lightning Talks"
+16:40 Trees That Grow (Shayan Najd, Simon Peyton Jones, Jacques Carette)
+17:05 Lightning Talks
+    Functional Lattice Crypto (Eric Crockett, Chris Peikert)
+    Inductive Tuples (Lennart Augustsson)
+    LLVM Bytecode (Moritz Angermann)
