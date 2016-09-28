@@ -54,3 +54,22 @@
   * Geoffrey Mainland - co-chair (Drexel University, Philadelphia)
   * Carter Schonwald (WellPosed Ltd)
 
+---2015---
+
+    Christopher Brown (St. Andrews University)
+    Richard Eisenberg (University of Pennsylvania)
+    Edward Kmett (S&P Capital IQ)
+    Hans-Wolfgang Loidl (Heriot-Watt University)
+    Trevor L. McDonell (Indiana University)
+    Deian Stefan (UC San Diego and GitStar)
+    Josef Svenningsson - chair (Chalmers University of Technology)
+
+---2016---
+
+    Joachim Breitner (Karlsruhe Institut für Technologie)
+    Duncan Coutts (Well Typed)
+    Michael Snoyman (FP Complete)
+    Luite Stegeman (ghcjs)
+    Niki Vazou (UCSD)
+    Stephanie Weirich (University of Pennsylvania)
+    Edward Z. Yang - chair (Stanford University)

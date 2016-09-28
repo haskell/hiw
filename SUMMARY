@@ -106,6 +106,18 @@ http://www.sigplan.org/DiversityPolicy.htm
 -- History ----------------------------------------------------------------------------------------
 -- These history records have the same format as that required by the ICFP workshop form.
 
+-- HIW 2016
+   Name                      : Haskell Implementors Workshop (HIW2016)
+   Dates                     : 24 September 2016
+   Location                  : Nara, Japan
+   Organizers                : Edward Z. Yang
+   Website                   : http://haskell.org/haskellwiki/HaskellImplementorsWorkshop/2016
+   Number of submissions     : 13
+   Number of accepted papers : 10 x 25/30 min session + 3 x 10 min session + lightning talks
+   Registered attendees      : AM 72, PM 67
+   Actual attendees          : 64, 71, 96, 63, 67
+   Budget information        : handled by ACM, co-located with ICFP
+
 -- HIW 2014
    Name                      : Haskell Implementors Workshop (HIW2014)
    Dates                     : 6 September 2014
