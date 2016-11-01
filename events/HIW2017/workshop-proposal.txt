@@ -197,9 +197,9 @@ PREVIOUS VERSIONS OF THE WORKSHOP:
    Location                  : Nara, Japan
    Organizers                : Edward Z. Yang
    Website                   : https://wiki.haskell.org/HaskellImplementorsWorkshop/2016
-   Number of submissions     : ??
-   Number of accepted papers : ??
-   Number of attendees       : ??
+   Number of submissions     : 12
+   Number of accepted papers : 9 25min talks + 3 lightning talks submitted in advance
+   Number of attendees       : registered: 72 in AM, 67 in PM. By 5 head counts during day: 64, 71, 96, 63, 67
    Registration fee          : ICFP workshop day pass (standard price $150)
    Budget information        : handled by ACM, co-located with ICFP
 
