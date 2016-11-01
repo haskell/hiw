@@ -50,39 +50,17 @@ GOALS OF THE WORKSHOP:
 
 ORGANIZERS OF THE WORKSHOP:
 
-   (Please complete the following table for each organizer.)
-
    Name    : Richard A. Eisenberg
    Address : Park Science Center 249
              Bryn Mawr College
 	     Bryn Mawr, PA 19010
+	     USA
    Email   : rae@cs.brynmawr.edu
    Phone   : 610-526-5061
    Mobile  : 201-575-6474
 
 
 NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
-
-    (Note that this list must be reviewed by SIGPLAN, which includes
-    checking for broad representation.
-
-      http://www.sigplan.org/Resources/Policies/Diversity/
-
-    Since SIGPLAN does sometimes request changes, PC invitations
-    should wait until the workshop is approved. You may wish to
-    include alternate names, in case not all invitations are accepted
-    or SIGPLAN requests changes.
-
-
-    Please include a little bit of relevant information on each
-    proposed PC member, such as affiliation, country, gender, etc.
-    If you have any additional information to share on how you
-    made your choice, please include that, as it will speed up
-    the process of reviewing.
-
-    The ICFP Workshop Chairs will pass this proposed PC on to
-    SIGPLAN, and report back if there are any concerns.)
-
 
   Wren Romano      Google
     - Haskell Prime Committee
@@ -128,9 +106,6 @@ NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
     
 OTHER POTENTIAL ATTENDEES:
 
-   (If desired; mainly for new workshops, as evidence of interest in
-   the topic.)
-
    n/a
 
 PLANS FOR THE CALL FOR PAPERS / PARTICIPATION:
@@ -170,27 +145,16 @@ PLANNED LENGTH OF THE WORKSHOP:
 
 PLANS FOR PUBLICITY:
 
-   (Including, but not limited to, web pages, mailing lists, and
-   newsgroups.)
-
    Haskell mailing lists, blogs, newsgroups, web site, personal
    invitations.
 
 PLANS FOR A PUBLISHED PROCEEDINGS:
-
-   (Three options are available: no proceedings, proceedings published
-   by ACM, or proceedings published as a university technical report.
-   In particular, using another publisher is not acceptable under the
-   sponsorship terms.)
 
    No proceedings.
    Abstracts and slides published on the workshop page (wiki, authors to 
    upload). Possibly talk videos published online with speakers' consent.
 
 PREVIOUS VERSIONS OF THE WORKSHOP:
-
-   (Please complete the following table for each previous version.
-   For budget information, only a brief summary is required.)
 
    Name                      : Haskell Implementors Workshop (HIW2016)
    Dates                     : 24 September
@@ -292,36 +256,15 @@ PREVIOUS VERSIONS OF THE WORKSHOP:
 
 WORKSHOP WEBSITE:
 
-   (Please include the address that will be used for the workshop
-   website, even if this site is not yet active or complete.)
-
     https://wiki.haskell.org/HaskellImplementorsWorkshop/
 
 VIDEO RECORDING:
-
-  (Do you want the workshop recorded, and if so why. ICFP 2017 has a
-  Video Chair, and some events per day can be filmed. It may be
-  possible to arrange more cameras and people if needed.)
 
 Video recording would be appreciated as availability of contributions
 would otherwise reduce to putting abstract and slides online.
 
 
 ADDITIONAL INFORMATION:
-
-   (If there is any additional information that you would like
-   to make us aware of, please include the details here.
-
-   For example, you may wish to indicate a preference for particular
-   dates, or that the workshop should not be run in parallel with
-   certain other workshops; in such cases, please also include the
-   reasons for your preference.
-
-   As mentioned in the call for proposals, the workshops this year
-   will occur on
-     September 3 (the day before ICFP) and
-     September 7-9 (the three days after ICFP).)
-
 
    HIW should not run in parallel with the Haskell Symposium, as most
    HIW attendees will want to go to both.  The best situation is to have
