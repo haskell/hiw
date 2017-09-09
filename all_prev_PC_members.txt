@@ -73,3 +73,12 @@
     Niki Vazou (UCSD)
     Stephanie Weirich (University of Pennsylvania)
     Edward Z. Yang - chair (Stanford University)
+
+---2017---
+
+    Richard A. Eisenberg -- chair (Bryn Mawr College)
+    Adam Gundry (Well-Typed)
+    Bartosz Nitka (Facebook)
+    Wren Romano (Google)
+    Alejandro Serrano Mena (University of Utrecht)
+    Jan Stolarek (University of Edinburgh)

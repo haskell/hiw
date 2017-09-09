@@ -1,0 +1,47 @@
+
+Hi $PCMEMBER,
+
+I am organizing the Haskell Implementers' Workshop to be co-located with ICFP
+in Oxford this year and I would like to invite you to join the program
+committee. The workshop will take place on Saturday, September 9.
+
+The workshop is now in its ninth year, with a format of prepared talks and
+demos, as well as impromptu sessions with lightning talks. You can read about
+the workshop at http://haskell.org/haskellwiki/HaskellImplementorsWorkshop
+
+I'm currently planning to orgnaize the event in more or less the same way this
+year, but I'm happy to take suggestions for new directions. We hope to get
+many talk proposals from speakers. We will certainly also have one or two
+invited speakers (e.g., Simon PJ's "State of Haskell" talk).
+
+We will not have any proceedings so the workload for program committee members
+should be light. I aim to have a program committee with six to eight members
+including me. The tasks for the program committee will be to:
+
+    1. propose any change to the overall format of the workshop
+    2. come up with suggestions for speakers to invite
+    3. encourage talk proposals in your network
+    4. review proposals from speakers
+    5. contribute to decision on our HotCRP instance
+    6. (if you attend ICFP/HIW) chair one of the HIW sessions
+
+Being on the PC does *not* mean you are required to attend, but of course I'd
+love to see you there.
+
+I expect the relevant dates to be:
+    Submission deadline: Thursday, July 6
+    Notification:        Thursday, July 20
+
+These are expected to squeeze nicely between the Haskell Symposium
+notification (June 26) and the ICFP early registration deadline (expected to
+be early August / late July). I'm happy to hear suggestions to revise these
+dates; they have not been publicized.
+
+The organization of subsequent workshops will be passed into new hands, and PC
+members are most welcome to express interest.
+
+So: will you join me on the committee? I hope so!
+
+Looking forward to hearing from you,
+Richard
+
