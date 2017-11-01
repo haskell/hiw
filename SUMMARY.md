@@ -174,7 +174,7 @@ workshop form.
        Location                  : Oxford, UK
        Organizers                : Richard Eisenberg
        Website                   : https://icfp17.sigplan.org/track/hiw-2017
-       Number of submissions     : *TODO*
+       Number of submissions     : 13
        Number of accepted papers : 11 x 25/30 min session + lightning talks
        Registered attendees      : *TODO*
        Actual attendees          : *TODO*
