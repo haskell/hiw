@@ -82,3 +82,8 @@
     Wren Romano (Google)
     Alejandro Serrano Mena (University of Utrecht)
     Jan Stolarek (University of Edinburgh)
+
+
+---ideas for the future---
+
+    Julie Moronuki of haskellbook.com

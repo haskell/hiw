@@ -3,14 +3,10 @@
             ICFP 2018, THE 23RD ACM SIGPLAN INTERNATIONAL
                  CONFERENCE ON FUNCTIONAL PROGRAMMING
 
-                        SEPTEMBER  23 - 29, 2018  
+                        SEPTEMBER  23 - 29, 2018
                    St. Louis, Missouri, United States
 
                         WORKSHOP PROPOSAL FORM
-
-    Note: for workshops that were affiliated with ICFP in 2017, a copy
-    of last year's completed proposal form can be obtained for
-    reference, by emailing icfp-workshops-2018@googlegroups.com.
 
 ----------------------------------------------------------------------
 
@@ -63,6 +59,7 @@ ORGANIZERS OF THE WORKSHOP:
 NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
 
   Niki Vazuo  University of Maryland
+    - works on refinement types for Haskell
     - recent PhD from UCSD
     - US
     - female
@@ -153,7 +150,16 @@ PLANS FOR A PUBLISHED PROCEEDINGS:
 
 PREVIOUS VERSIONS OF THE WORKSHOP:
 
-   TODO (2017)
+   Name                      : Haskell Implementors Workshop (HIW2017)
+   Dates                     : 9 September 2017
+   Location                  : Oxford, UK
+   Organizers                : Richard Eisenberg
+   Website                   : https://icfp17.sigplan.org/track/hiw-2017
+   Number of submissions     : 13
+   Number of accepted papers : 11 x 25/30 min session + lightning talks
+   Registered attendees      : 77
+   Actual attendees          : AM 74, PM 77
+   Budget information        : handled by ACM, co-located with ICFP
 
    Name                      : Haskell Implementors Workshop (HIW2016)
    Dates                     : 24 September
@@ -266,8 +272,8 @@ VIDEO RECORDING:
 ADDITIONAL INFORMATION:
 
    While I am aware of plans to reshuffle the ICFP-related workshops, to
-   the best of my knowledge, they do not already affect 2018. Therefore,
-   I hope we can go with the usual sequence
+   the best of my knowledge, they do not already affect 2018.
+   Therefore, I hope we can go with the usual sequence
    ICFP - Haskell Symposium - HIW, and have HIW on September 29th
 
 SUBMISSION INFORMATION:
