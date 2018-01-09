@@ -46,14 +46,13 @@ GOALS OF THE WORKSHOP:
 
 ORGANIZERS OF THE WORKSHOP:
 
-   Name    : Richard A. Eisenberg
-   Address : Park Science Center 249
-             Bryn Mawr College
-	     Bryn Mawr, PA 19010
-	     USA
-   Email   : rae@cs.brynmawr.edu
-   Phone   : 610-526-5061
-   Mobile  : 201-575-6474
+   Name    : Joachim Breitner
+   Address : Levine Hall 514
+             University of Pennsylvania
+             3330 Walnut Street
+             Philadelphia, PA 19104
+             USA
+   Email   : joachim@cis.upenn.edu
 
 
 NAMES OF POTENTIAL PROGRAM COMMITTEE MEMBERS, WITH AFFILIATIONS:
