@@ -1,0 +1,213 @@
+\documentclass{beamer}
+%\documentclass{article}
+%\usepackage{beamerarticle}
+
+% With greetings from Guy Steele 
+\makeatletter
+    \setlength\beamer@paperwidth{15.38cm}%
+    \setlength\beamer@paperheight{10.00cm}%
+    \geometry{papersize={\beamer@paperwidth,\beamer@paperheight}}
+\makeatother
+
+\newlength{\px}
+\setlength{\px}{0.0009765625\paperwidth}
+
+\usetheme{metropolis}
+\usepackage{substrate-background}
+
+\setbeamercolor{normal text}{%
+  fg=black,
+}
+
+\usepackage[T1]{fontenc}
+%\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{pifont}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULthickness}{0.8pt} % was 0.4pt
+\usepackage{array}
+\usepackage[scaled=0.81]{beramono}
+
+\usepackage{multirow}
+\usepackage{bigstrut}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{shadows}
+\usetikzlibrary{positioning,calc,decorations,decorations.pathmorphing,decorations.markings,shapes.geometric,matrix}
+\usetikzlibrary{overlay-beamer-styles}
+\usetikzlibrary{patterns}
+\usepackage{pgfplots}
+\usepgfplotslibrary{colormaps,colorbrewer}
+\pgfkeys{/pgf/number format/.cd,1000 sep={}}
+\pgfplotsset{compat=1.14}
+
+% http://tex.stackexchange.com/a/85578/15107
+\tikzset{onslide/.code args={<#1>#2}{%
+  \only<#1>{\pgfkeysalso{#2}} % \pgfkeysalso doesn't change the path
+}}
+\makeatletter
+\newenvironment<>{btHighlight}[1][]
+{\begin{onlyenv}#2\begingroup\tikzset{bt@Highlight@par/.style={#1}}\begin{lrbox}{\@tempboxa}}
+{\end{lrbox}\bt@HL@box[bt@Highlight@par]{\@tempboxa}\endgroup\end{onlyenv}}
+
+\newcommand<>\btHL[1][]{%
+  \only#2{\begin{btHighlight}[#1]\bgroup\aftergroup\bt@HL@endenv}%
+}
+\def\bt@HL@endenv{%
+  \end{btHighlight}%   
+  \egroup
+}
+\newcommand{\bt@HL@box}[2][]{%
+  \tikz[#1]{%
+    \pgfpathrectangle{\pgfpoint{1pt}{0pt}}{\pgfpoint{\wd #2}{\ht #2}}%
+    \pgfusepath{use as bounding box}%
+    \node[anchor=base west,
+    %fill=orange!30,
+    outer sep=0pt,inner xsep=1pt, inner ysep=0pt, rounded corners=3pt, minimum height=\ht\strutbox+1pt,
+    #1]{\raisebox{1pt}{\strut}\strut\usebox{#2}};
+  }%
+}
+\makeatother
+
+
+
+\lstdefinestyle{Haskell}{language=Haskell
+        ,columns=flexible
+	,basewidth={.365em}
+	,keepspaces=True
+        ,texcl=true
+        ,escapechar=\%
+	,lineskip={-3.0pt},
+        ,basicstyle=\ttfamily
+        ,stringstyle=\small\ttfamily
+        ,showstringspaces=false
+	,commentstyle=\rmfamily
+       ,literate= %{->}{$\,\to\,$}2
+%                   {<-}{$\,\leftarrow\,$}2
+%                   {=>}{$\,\Rightarrow\,$}2
+%                   {→}{$\,\to\,$}2
+%                  {\\}{\textlambda}1
+%                  {>>}{{>>}\hspace{-1pt}}2
+%                  {+}{{$+$}}1
+%                  {[]}{[\,]\ }1
+%                  {--}{{---\ }}1  would be nice, but prevents detection of comments 
+%                  {++}{{$+\!\!+$}}1
+%                 {\ .\ }{{$\,\circ\,$}}2
+                  {STRUT}{{\strut}}1 % hack
+                  {DOTS}{{\ldots}}1 % hack
+                  {~}{{\ }}1 % hack
+%                  {~}{{$\sim$}}1 % hack
+                  {|>}{{$\triangleright$}}1 % hack
+                  {ghci>}{{$\lambda\!{>}$}}2
+		  {PRAGMA}{\{-\#}3
+		  {ENDPRAGMA}{\#-\}}3
+	% Nicer comment separator
+	% ,deletecomment=[l]--%
+	% for RULEs
+        ,deletecomment=[n]{\{-}{-\}}%
+	,keywordstyle=\textcolor{blue}
+	,keywords={%
+	    case,class,data,default,deriving,do,else,%
+	    foreign,if,import,in,infix,infixl,infixr,instance,%
+	    let,forall,letrec,module,newtype,role,of,then,type,where,\_,%
+            nominal,representational,phantom,RULES,%
+	}
+	, otherkeywords = {=,=>,->,==,::,:=,!,|},
+        , morekeywords = [2]{==}, % does not work :-(
+	, keywordstyle={[2]\textcolor{red}}
+        }
+\lstdefinestyle{Coq}{language=Haskell
+	,keywords={%
+	    Definition,fix,match,with,end,%
+	    Class,%
+	    Lemma,Theorem,forall,%
+	    Axiom,%
+	    Class,Type,fun,Proof,Qed,%
+	    Program,Fixpoint,Solve,Obligations,Set,|,%
+	    if,then,else,%
+	    measure,%
+	}
+	, otherkeywords = {=,=>,->,==,:,.},
+	}
+\lstdefinestyle{edits}{language=Haskell
+	,keywords={%
+	    termination,obligations,
+	    rename,type,value,=,
+	}
+	, otherkeywords = {},
+	}
+\lstdefinestyle{Rules}{
+        ,style=Haskell
+        ,deletecomment=[l]--%
+        ,morekeywords={RULES}%
+        }
+\lstdefinestyle{gen}{
+	frame=lr,framerule=2pt, rulecolor=\color{orange}
+	}
+\lstset{style=Haskell}
+\newcommand{\li}{\lstinline[breaklines=true, breakatwhitespace=true]}
+
+% \pause mit verstecken
+\newcommand{\hide}{\onslide+<+(1)->}
+
+\makeatletter
+\newcommand{\insta}[1]{\textsuperscript{\@fnsymbol{#1}}}
+\newcommand{\insts}[2]{\textsuperscript{\@fnsymbol{#1}$\rightarrow$\@fnsymbol{#2}}}
+\makeatother
+
+
+\title{Welcome to the Haskell Implementors Workshop 2018}
+\subtitle{}
+\author{Joachim Breitner}
+\institute{DFINITY}
+\date{September 23, 2018, ICFP, St. Louis}
+%\logo{\includegraphics{Telekom-Stiftung}}
+
+\DeclareTextSymbol\textlambda{T3}{171}           % Lambda
+\DeclareTextSymbolDefault\textlambda{T3}
+%\DeclareUnicodeCharacter{03BB}{\textlambda}
+
+
+\begin{document}
+
+\frame[plain]{\titlepage}
+\only<article>{\maketitle}
+
+\begin{frame}{Thanks to the PC}
+\begin{itemize}
+\item Edwin Brady (University of St. Andrews, UK)
+\item Joachim Breitner – chair (University of Pennsylvania)
+\item Ben Gamari (Well-Typed LLP)
+\item Michael Hanus (Kiel University)
+\item Roman Leshchinsky (Facebook)
+\item Niki Vazou (University of Maryland)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Organisation}
+\begin{itemize}
+\item Student volunteer Nick takes time and video permission sheets
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Lightning Talks}
+
+\begin{itemize}
+\item Three slots, 4 or more talks each
+\item 8 mins max. \\
+      Shorter good. \\
+      Known shorter better.
+\item Schedule: \#icfp-hiw on the Strangeloop slack.\\
+      \url{https://strangeloop2018.slack.com}
+\item Sign up: Send me a message on Slack, or talk to me
+\end{itemize}
+
+\end{frame}
+
+\end{document}
