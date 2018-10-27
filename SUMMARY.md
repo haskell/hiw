@@ -69,8 +69,11 @@ How to Organise HIW
        abstracts on the website. The full programme plus abstracts should be
        there before they need to decide.
 
-6.  HIW has not yet had invited speakers, but this may be an option for later
-    years. In 2011 we could give up to two invited speakers free registration
+6.  HIW usually has not invited speakers. We had one in 2018. There is no need
+    to spend the budget; if unused, it it will be used for other ICFP purposes
+    (e.g. PLMW).
+
+    In 2011 we could give up to two invited speakers free registration
     to the workshop. This was done by supplying them with a "free registration
     code", obtained from the ICFP workshops chair. The speakers entered this
     code into the online registration system.
@@ -95,7 +98,6 @@ How to Organise HIW
     Some people have an interesting story to tell, but aren't good at writing
     proposals.
 
-
 10. The PC (chairs included) reads the proposals, ranks them, and decides who
     will talk at the workshop.
 
@@ -110,10 +112,8 @@ How to Organise HIW
     whether or not to come to HIW based on the programme and abstracts, so
     ideally it should be up before the online ICFP registration system opens.
 
-
 13. Respond to the ICFP workshops chair when they ask when you want your tea
     breaks.
-
 
 14. Ask the ICFP workshops chair what the copyright status of the videos will
     be.
@@ -128,7 +128,6 @@ How to Organise HIW
     a form so that they could distribute the videos. We drew in a separate box
     that said "I also authorise these videos to be posted on public file
     sharing sites", and made sure to get a photocopy.
-
 
 15. Attend the event, and delegate PC members (or other people) to chair each
     session.
@@ -167,6 +166,18 @@ History
 These history records have the same format as that required by the ICFP
 workshop form.
 
+
+    -- HIW 2018
+       Name                      : Haskell Implementors Workshop (HIW2018)
+       Dates                     : 23 September 2017
+       Location                  : St Louis, USA
+       Organizers                : Joachim Breitner
+       Website                   : https://icfp17.sigplan.org/track/hiw-2018-papers
+       Number of submissions     : 12
+       Number of accepted papers : 8 x 25 min session + 7 lightning talks
+       Registered attendees      : ?
+       Actual attendees          : ?
+       Budget information        : handled by ACM, co-located with ICFP
 
     -- HIW 2017
        Name                      : Haskell Implementors Workshop (HIW2017)
