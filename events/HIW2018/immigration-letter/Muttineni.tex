@@ -1,0 +1,85 @@
+\documentclass[12pt]{letter}
+
+
+\usepackage[dvipdfx,cmyk]{xcolor}
+\definecolor{pennblue}{cmyk}{1.00,.65,0,.30}
+\definecolor{pennred}{cmyk}{0,1.00,.65,.34}
+
+\usepackage[T1]{fontenc}
+\usepackage[charter]{mathdesign}
+
+\usepackage[head=10pt,left=1.5in,right=1.5in,bottom=1.5in,footskip=20pt,includeheadfoot]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=false,
+            pdfborder={0 0 0},
+            ]{hyperref}
+\usepackage[absolute]{textpos}
+\usepackage{ifthen}
+\usepackage{soul}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\fancypagestyle{plain}
+{
+%\newgeometry{head=10pt,left=.75in,right=.75in,bottom=1in,footskip=20pt,includeheadfoot}
+%\fancyhfoffset[E,O,H,F]{0pt}
+
+\fancyhead{}
+\fancyhead[L]{%
+    \begin{textblock*}{2in}[0.5,0.0](1.5in,0.5in)
+        \includegraphics[width=2in]{seaslogo.png}
+    \end{textblock*}
+    \begin{textblock*}{7.5in}(0.5in,1.3in)
+        %
+{\fontfamily{ppl} \color{pennblue}\fontsize{9.5pt}{11.5}\selectfont
+      \textbf{School of Engineering and Applied Science\\
+Computer and Information Science Department \hfill Joachim Breitner}\\
+\fontsize{8pt}{10}\selectfont 3330 Walnut Street\hfill \textit{\color{pennblue} \fontsize{8pt}{10}\selectfont Post-doctoral researcher}\\
+Levine Hall \hfill \\ % Tel +1 215 898-6222\\
+Philadelphia, PA 19104-6309\hfill \href{mailto:joachim@cis.upenn.edu}{joachim@cis.upenn.edu}\\
+}
+    \end{textblock*}
+}
+\addtolength{\headheight}{\baselineskip}
+\renewcommand{\headrulewidth}{0pt}
+
+\urlstyle{rm}
+
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot{}
+\fancyfoot[C]{%
+    {\includegraphics[width=3in]{upennlogo.pdf}}
+}
+}
+
+% \fancypagestyle{plain}{%
+% \AtBeginDocument{
+% \fancyhf{} % clear all header and footer fields
+% \fancyfoot[C]{\bfseries \thepage} % except the center
+% \newgeometry{top=1in,left=1.5in,bottom=.6in,footskip=20pt,right=1.5in,includeheadfoot}
+% }
+%\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\footrulewidth}{0pt}
+%}
+
+
+%\thispagestyle{plain}
+
+\pagestyle{plain}
+\makeatletter
+\let\ps@empty\ps@plain
+\let\ps@firstpage\ps@plain
+\makeatother
+
+\begin{document}
+\begin{letter}{To whom it may concern
+}
+\opening{Dear Sir or Madam,}
+
+I have invited Rahul Muttineni accompanied by Jyothsna Patnam, to give the keynote at the Haskell Implementors Workshop 2018 on September 23rd. The workshop is co-located with the International Conference on Functional Programming and takes place in St.\ Louis. Mr.\ Muttineni informed me that he has made travel arrangements from September 18th to September 24th.
+
+\signature{Joachim Breitner\\Chair of the Program Committee}
+\closing{With best regards}%
+\end{letter}
+\end{document}
