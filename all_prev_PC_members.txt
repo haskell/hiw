@@ -83,7 +83,17 @@
     Alejandro Serrano Mena (University of Utrecht)
     Jan Stolarek (University of Edinburgh)
 
+---2018---
+
+    Edwin Brady (University of St. Andrews, UK)
+    Joachim Breitner (DFINITY Foundation)
+    Ben Gamari (Well-Typed LLP)
+    Michael Hanus (Kiel University)
+    Roman Leshchinskiy (Facebook)
+    Niki Vazou (University of Maryland, USA)
 
 ---ideas for the future---
 
     Julie Moronuki of haskellbook.com
+    Scott Ryan
+    Ningning Xie https://xnning.github.io/
