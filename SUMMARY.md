@@ -175,8 +175,8 @@ workshop form.
        Website                   : https://icfp17.sigplan.org/track/hiw-2018-papers
        Number of submissions     : 12
        Number of accepted papers : 8 x 25 min session + 7 lightning talks
-       Registered attendees      : ?
-       Actual attendees          : ?
+       Registered attendees      : N/A, 149 registered for the Sunday
+       Actual attendees          : AM 49, PM 51
        Budget information        : handled by ACM, co-located with ICFP
 
     -- HIW 2017
