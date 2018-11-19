@@ -172,7 +172,7 @@ workshop form.
        Dates                     : 23 September 2017
        Location                  : St Louis, USA
        Organizers                : Joachim Breitner
-       Website                   : https://icfp17.sigplan.org/track/hiw-2018-papers
+       Website                   : https://icfp18.sigplan.org/track/hiw-2018-papers
        Number of submissions     : 12
        Number of accepted papers : 8 x 25 min session + 7 lightning talks
        Registered attendees      : N/A, 149 registered for the Sunday
