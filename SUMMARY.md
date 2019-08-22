@@ -166,10 +166,22 @@ History
 These history records have the same format as that required by the ICFP
 workshop form.
 
+    -- HIW 2019
+       Name                      : Haskell Implementors Workshop (HIW2019)
+       Dates                     : 23 August 2019
+       Location                  : Berlin, Germany
+       Organizers                : Niki Vazou
+       Website                   : https://icfp19.sigplan.org/home/hiw-2019
+       Number of submissions     : 17
+       Number of accepted papers : 10 x 25 min session + lightning talks
+       Registered attendees      : 46 
+       Actual attendees          : AM ??, PM ?? -- ask Anabel
+       Budget information        : handled by ACM, co-located with ICFP
+
 
     -- HIW 2018
        Name                      : Haskell Implementors Workshop (HIW2018)
-       Dates                     : 23 September 2017
+       Dates                     : 23 September 2018
        Location                  : St Louis, USA
        Organizers                : Joachim Breitner
        Website                   : https://icfp18.sigplan.org/track/hiw-2018-papers
