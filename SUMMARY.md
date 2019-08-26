@@ -175,7 +175,7 @@ workshop form.
        Number of submissions     : 17
        Number of accepted papers : 10 x 25 min session + lightning talks
        Registered attendees      : 46 
-       Actual attendees          : AM ??, PM ?? -- ask Anabel
+       Actual attendees          : AM 70, PM 50-74
        Budget information        : handled by ACM, co-located with ICFP
 
 
