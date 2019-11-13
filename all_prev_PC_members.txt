@@ -92,6 +92,14 @@
     Roman Leshchinskiy (Facebook)
     Niki Vazou (University of Maryland, USA)
 
+---2019---
+
+    Niki Vazou -- chair (IMDEA Software Institute)
+    Manuel Chakravarty (Tweag I/O & IOHK)
+    Jasper Van der Jeugt (Fugue)
+    Ningning Xie (The University of Hong Kong)
+    Brent Yorgey (Hendrix College)
+
 ---ideas for the future---
 
     Julie Moronuki of haskellbook.com
