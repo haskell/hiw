@@ -166,6 +166,18 @@ History
 These history records have the same format as that required by the ICFP
 workshop form.
 
+    -- HIW 2020
+       Name                      : Haskell Implementors Workshop (HIW2019)
+       Dates                     : 28 August 2019
+       Location                  : Jersey City, New Jersey
+       Organizers                : Ben Gamari
+       Website                   : https://icfp20.sigplan.org/home/hiw-2020
+       Number of submissions     : 
+       Number of accepted papers : 
+       Registered attendees      : 
+       Actual attendees          : 
+       Budget information        : 
+
     -- HIW 2019
        Name                      : Haskell Implementors Workshop (HIW2019)
        Dates                     : 23 August 2019

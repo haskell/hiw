@@ -100,6 +100,15 @@
     Ningning Xie (The University of Hong Kong)
     Brent Yorgey (Hendrix College)
 
+---2020---
+
+    Andrey Mokhov (New Castle University)
+    Ryan Scott (University of Indiana)
+    Klara Mardirosian (KU Leuven)
+    George Karachalias (Tweag I/O)
+    Matthew Pickering (Bristol University)
+    Christian Baaij (QBayLogic)
+
 ---ideas for the future---
 
     Julie Moronuki of haskellbook.com
