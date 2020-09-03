@@ -156,8 +156,8 @@ A: In 2016 we eyeballed it based on the time until conference from last year.
 Links
 =====
 
-* http://www.sigplan.org/sigplan_workshop_proposal.htm
-* http://www.sigplan.org/Resources/Policies/Diversity/
+* <http://www.sigplan.org/sigplan_workshop_proposal.htm>
+* <http://www.sigplan.org/Resources/Policies/Diversity/>
 
 
 History
@@ -165,6 +165,18 @@ History
 
 These history records have the same format as that required by the ICFP
 workshop form.
+
+    -- HIW 2020
+       Name                      : Haskell Implementors Workshop (HIW2020)
+       Dates                     : 28 August 2020
+       Location                  : Jersey City, New Jersey (virtual)
+       Organizers                : Ben Gamari
+       Website                   : https://icfp20.sigplan.org/home/hiw-2020
+       Number of submissions     : 15
+       Number of accepted papers : 11 x 22 minutes (1 retracted) + 10 lightning talks
+       Registered attendees      : 196
+       Actual attendees          : AM: 60-90, PM: 50-70
+       Budget information        : handled by ACM, co-located with ICFP
 
     -- HIW 2019
        Name                      : Haskell Implementors Workshop (HIW2019)
